@@ -1,0 +1,535 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{709403DD-EAA1-47F1-BCF2-A1B9E8D68DC4}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>OnlineWatchShop</RootNamespace>
+    <AssemblyName>OnlineWatchShop</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="contacts.html" />
+    <Content Include="home.html" />
+    <Content Include="images\banner-images\00024507.jpg" />
+    <Content Include="images\banner-images\1644721.jpg" />
+    <Content Include="images\banner-images\20462-broken-and-wet-stopwatch-1366x768-digital-art-wallpaper.jpg" />
+    <Content Include="images\banner-images\51b2e8053a44141103.jpg" />
+    <Content Include="images\banner-images\contacts.jpg" />
+    <Content Include="images\banner-images\f12be8be1f4a3d7b6facdacfa4c229fe.jpg" />
+    <Content Include="images\banner-images\home-banner7.jpg" />
+    <Content Include="images\banner-images\shop.jpg" />
+    <Content Include="images\banner-images\shop-no.jpg" />
+    <Content Include="images\banner-images\testimonials.jpg" />
+    <Content Include="images\home-contact.jpg" />
+    <Content Include="images\home-our-shop.jpg" />
+    <Content Include="images\home-testimonials.jpg" />
+    <Content Include="images\banner-images\home.jpg" />
+    <Content Include="images\shop-images\ladies-watches\accurist-ladies-chronograph.jpg" />
+    <Content Include="images\shop-images\ladies-watches\accurist-ladies-chronograph2.jpg" />
+    <Content Include="images\shop-images\ladies-watches\accurist-ladies-chronograph3.jpg" />
+    <Content Include="images\shop-images\ladies-watches\accurist-london-ladies-chronograph.jpg" />
+    <Content Include="images\shop-images\ladies-watches\adidas-unisex-santiago-42.jpg" />
+    <Content Include="images\shop-images\ladies-watches\adidas-unisex-santiago.jpg" />
+    <Content Include="images\shop-images\ladies-watches\armani-exchange-ladies-banks-chronograph.jpg" />
+    <Content Include="images\shop-images\ladies-watches\armani-exchange-ladies-banks-chronograph2.jpg" />
+    <Content Include="images\shop-images\ladies-watches\armani-exchange-ladies-banks-chronograph3.jpg" />
+    <Content Include="images\shop-images\ladies-watches\armani-exchange-ladies-banls-chronograph.jpg" />
+    <Content Include="images\shop-images\ladies-watches\armani-exchange-ladies-hampton.jpg" />
+    <Content Include="images\shop-images\ladies-watches\armani-exchange-ladies-hampton2.jpg" />
+    <Content Include="images\shop-images\ladies-watches\armani-exchange-ladies-hampton3.jpg" />
+    <Content Include="images\shop-images\ladies-watches\armani-exchange-ladies-tenno.jpg" />
+    <Content Include="images\shop-images\ladies-watches\armani-exchange-ladies-zulu-chronograph.jpg" />
+    <Content Include="images\shop-images\ladies-watches\breo-unisex-classic.jpg" />
+    <Content Include="images\shop-images\ladies-watches\breo-unisex-classic2.jpg" />
+    <Content Include="images\shop-images\ladies-watches\bulova-ladies-automatic.jpg" />
+    <Content Include="images\shop-images\ladies-watches\bulova-ladies-marine-staart-duramic-blue-chronograph.jpg" />
+    <Content Include="images\shop-images\ladies-watches\bulova-ladies-marine-star-chronograph.jpg" />
+    <Content Include="images\shop-images\ladies-watches\bulova-ladies-marine-star.jpg" />
+    <Content Include="images\shop-images\ladies-watches\bulova-ladies-mechanicaals-automatic.jpg" />
+    <Content Include="images\shop-images\ladies-watches\bulova-ladies-mechanicals-automatic.jpg" />
+    <Content Include="images\shop-images\ladies-watches\bulova-ladies-precisionist-champlain-chronograph.jpg" />
+    <Content Include="images\shop-images\ladies-watches\bulova-ladies-precisionist-champlain-diver.jpg" />
+    <Content Include="images\shop-images\ladies-watches\casio-ladies-edifice-alarm-chronograph-solar-powered.jpg" />
+    <Content Include="images\shop-images\ladies-watches\casio-ladies-edifice-chronograph.jpg" />
+    <Content Include="images\shop-images\ladies-watches\casio-ladies-edifice-chronograph2.jpg" />
+    <Content Include="images\shop-images\ladies-watches\casio-ladies-edifice-chronograph3.jpg" />
+    <Content Include="images\shop-images\ladies-watches\casio-ladies-edifice-red-bull-chronograph.jpg" />
+    <Content Include="images\shop-images\ladies-watches\casio-ladies-edifice-red-bull-racing-limited-edition-alarm.jpg" />
+    <Content Include="images\shop-images\ladies-watches\casio-ladies-edifice-wave-ceptor-alarm-chronograph-radio.jpg" />
+    <Content Include="images\shop-images\ladies-watches\casio-ladies-g-chock-alarm-chronograph2.jpg" />
+    <Content Include="images\shop-images\ladies-watches\casio-ladies-g-shock-alarm-chronograph-radio-controlled.jpg" />
+    <Content Include="images\shop-images\ladies-watches\casio-ladies-g-shock-alarm-chronograph.jpg" />
+    <Content Include="images\shop-images\ladies-watches\casio-ladies-g-shock-alarm-chronograph3.jpg" />
+    <Content Include="images\shop-images\ladies-watches\casio-ladies-g-shock-alarm-chronograph4.jpg" />
+    <Content Include="images\shop-images\ladies-watches\casio-ladies-g-shock-alarm-chronograph5.jpg" />
+    <Content Include="images\shop-images\ladies-watches\casio-ladies-g-shock-alarm-chronograph6.jpg" />
+    <Content Include="images\shop-images\ladies-watches\casio-ladies-g-shock-alarm-chronograph7.jpg" />
+    <Content Include="images\shop-images\ladies-watches\casio-ladies-g-shock-alarm-chronograph8.jpg" />
+    <Content Include="images\shop-images\ladies-watches\casio-ladies-g-shock-alarm-chronograph9.jpg" />
+    <Content Include="images\shop-images\ladies-watches\casio-ladies-g-shock-g-rescue-alarm-chronograph.jpg" />
+    <Content Include="images\shop-images\ladies-watches\casio-ladies-g-shock-g-rescue-alarm-chronograph2.jpg" />
+    <Content Include="images\shop-images\ladies-watches\casio-ladies-g-shock-gravity-defier-alarm-chronograph-radio.jpg" />
+    <Content Include="images\shop-images\ladies-watches\casio-ladies-g-shock-gravity-defier-alarm-chronograph-radio2.jpg" />
+    <Content Include="images\shop-images\ladies-watches\casio-ladies-g-shock-premium-gravity-defier-alarm-chronograph.jpg" />
+    <Content Include="images\shop-images\ladies-watches\casio-ladies-g-shock-premium-gravity-defier-alarm-chronograph2.jpg" />
+    <Content Include="images\shop-images\ladies-watches\casio-ladies-g-shock-sky-cockpit-alarm-chronograph.jpg" />
+    <Content Include="images\shop-images\ladies-watches\casio-ladies-g-shock-waveceptor-alarm-chronograph-radio.jpg" />
+    <Content Include="images\shop-images\ladies-watches\casio-ladies-premium-g-shock-gravity-master-gps-hybrid-alarm.jpg" />
+    <Content Include="images\shop-images\ladies-watches\casio-ladies-waveceptor-alarm-chronograph.jpg" />
+    <Content Include="images\shop-images\ladies-watches\casio-ladies-waveceptor-titanium-alarm-chronograph.jpg" />
+    <Content Include="images\shop-images\ladies-watches\casio-unisex-clasic-alarm-chronograph.jpg" />
+    <Content Include="images\shop-images\ladies-watches\casio-unisex-classic-alarm-chronograph.jpg" />
+    <Content Include="images\shop-images\ladies-watches\casio-unisex-classic-alarm-chronograph2.jpg" />
+    <Content Include="images\shop-images\ladies-watches\casio-unisex-classic-alarm-chronograph3.jpg" />
+    <Content Include="images\shop-images\ladies-watches\casio-unisex-classic.jpg" />
+    <Content Include="images\shop-images\ladies-watches\citizen-ladies-calibre-8700-alarm-diamond-eco-drive.jpg" />
+    <Content Include="images\shop-images\ladies-watches\citizen-ladies-calibre-8700-alarm-eco-drive.jpg" />
+    <Content Include="images\shop-images\ladies-watches\citizen-ladies-calibre-8700-alarm-eco-drive2.jpg" />
+    <Content Include="images\shop-images\ladies-watches\citizen-ladies-calibre-8700-eco-drive.jpg" />
+    <Content Include="images\shop-images\ladies-watches\citizen-ladies-chrono-pepretual-a-t-alarm-chronograph-radio.jpg" />
+    <Content Include="images\shop-images\ladies-watches\citizen-ladies-chrono-perpetua-a-t-alarm-chronograph-radio.jpg" />
+    <Content Include="images\shop-images\ladies-watches\citizen-ladies-chrono-perpetual-a-t-alarm-chronograph-radio.jpg" />
+    <Content Include="images\shop-images\ladies-watches\citizen-ladies-chrono-perpetual-au-alarm-chronoograph-radio.jpg" />
+    <Content Include="images\shop-images\ladies-watches\citizen-ladies-eco-drive.jpg" />
+    <Content Include="images\shop-images\ladies-watches\citizen-ladies-golf-eco-drive.jpg" />
+    <Content Include="images\shop-images\ladies-watches\citizen-ladies-mesh-chronograph-eco-drive.jpg" />
+    <Content Include="images\shop-images\ladies-watches\citizen-ladies-mesh-chronograph-eco-drive2.jpg" />
+    <Content Include="images\shop-images\ladies-watches\citizen-ladies-navihawk-alarm-chronograph-radio-controlled.jpg" />
+    <Content Include="images\shop-images\ladies-watches\citizen-ladies-nightawk-chronograph-eco-drive.jpg" />
+    <Content Include="images\shop-images\ladies-watches\citizen-ladies-nightawk-titanium-chronograph-eco-drive.jpg" />
+    <Content Include="images\shop-images\ladies-watches\citizen-ladies-red-arrows-world-time-chronograph-eco-drive.jpg" />
+    <Content Include="images\shop-images\ladies-watches\citizen-ladies-skyhawk-a-t-red-arrows-titanium-alarm-chronograph.jpg" />
+    <Content Include="images\shop-images\ladies-watches\citizen-ladies-titatium-eco-drive.jpg" />
+    <Content Include="images\shop-images\ladies-watches\davosa-ladies-ternos-ceramic-automatic.jpg" />
+    <Content Include="images\shop-images\ladies-watches\diesel-ladies-big-daddy-chronograph.jpg" />
+    <Content Include="images\shop-images\ladies-watches\diesel-ladies-big-daddy-chronograph2.jpg" />
+    <Content Include="images\shop-images\ladies-watches\diesel-ladies-big-daddy-chronograph3.jpg" />
+    <Content Include="images\shop-images\ladies-watches\diesel-ladies-big-daddy-chronograph4.jpg" />
+    <Content Include="images\shop-images\ladies-watches\diesel-ladies-franchise-silicon.jpg" />
+    <Content Include="images\shop-images\ladies-watches\diesel-ladies-master-chief-chronograph.jpg" />
+    <Content Include="images\shop-images\ladies-watches\diesel-ladies-master-chief-chronograph2.jpg" />
+    <Content Include="images\shop-images\ladies-watches\diesel-ladies-mega-chief-chronograph.jpg" />
+    <Content Include="images\shop-images\ladies-watches\diesel-ladies-mega-chief-chronograph2..jpg" />
+    <Content Include="images\shop-images\ladies-watches\diesel-ladies-mega-chief-chronograph2.jpg" />
+    <Content Include="images\shop-images\ladies-watches\diesel-ladies-mega-chief-chronograph3.jpg" />
+    <Content Include="images\shop-images\ladies-watches\diesel-ladies-xl-franchise-chronograph.jpg" />
+    <Content Include="images\shop-images\ladies-watches\diesel-men-goose-chronograph.jpg" />
+    <Content Include="images\shop-images\ladies-watches\disney-by-ingersoll-unisex-classic-mickey-mouse.jpg" />
+    <Content Include="images\shop-images\ladies-watches\dreyfuss-co-ladies-1925-automatic-chronograph.jpg" />
+    <Content Include="images\shop-images\ladies-watches\dreyfuss-co-ladies-1925-moonphase-automatic.jpg" />
+    <Content Include="images\shop-images\ladies-watches\dreyfuss-co-ladies-1953-automatic.jpg" />
+    <Content Include="images\shop-images\ladies-watches\dreyfuss-co-ladies-1953-chronograph.jpg" />
+    <Content Include="images\shop-images\ladies-watches\dreysuff-co-ladies-automatic-chronograph.jpg" />
+    <Content Include="images\shop-images\ladies-watches\emporio-armani-ladies-ceramica-ceramic-chronograph2.jpg" />
+    <Content Include="images\shop-images\ladies-watches\emporio-armani-ladies-ceramica-ceramic-chronograph3.jpg" />
+    <Content Include="images\shop-images\ladies-watches\emporio-armani-ladies-chronograph.jpg" />
+    <Content Include="images\shop-images\ladies-watches\emporio-armani-ladies-chronograph2.jpg" />
+    <Content Include="images\shop-images\ladies-watches\emporio-armani-ladies-chronograph3.jpg" />
+    <Content Include="images\shop-images\ladies-watches\emporio-armani-ladies-chronograph4.jpg" />
+    <Content Include="images\shop-images\ladies-watches\emporio-armani-ladies-chronograph5.jpg" />
+    <Content Include="images\shop-images\ladies-watches\emporio-armani-ladies-chronograph6.jpg" />
+    <Content Include="images\shop-images\ladies-watches\emporio-armani-ladies-chronograph7.jpg" />
+    <Content Include="images\shop-images\ladies-watches\emporio-armani-ladies-cuddink-gift-set-chronograph.jpg" />
+    <Content Include="images\shop-images\ladies-watches\emporio-armani-ladies.jpg" />
+    <Content Include="images\shop-images\ladies-watches\emporio-armani-ladies2.jpg" />
+    <Content Include="images\shop-images\ladies-watches\emporio-armani-ladies3.jpg" />
+    <Content Include="images\shop-images\ladies-watches\emporio-armani-ladies4.jpg" />
+    <Content Include="images\shop-images\ladies-watches\emporio-armani-ladies5.jpg" />
+    <Content Include="images\shop-images\ladies-watches\emporio-armani-ladies6.jpg" />
+    <Content Include="images\shop-images\ladies-watches\emporio-armani-ladies7.jpg" />
+    <Content Include="images\shop-images\ladies-watches\emporio-emani-ladies-chronograph2.jpg" />
+    <Content Include="images\shop-images\ladies-watches\emporio-ermani-ladies-ceramica-ceramic-chronograph.jpg" />
+    <Content Include="images\shop-images\ladies-watches\emprio-armani-ladies-chronograph.jpg" />
+    <Content Include="images\shop-images\ladies-watches\emprio-armani-ladies.jpg" />
+    <Content Include="images\shop-images\ladies-watches\emprio-ermani-ladies4.jpg" />
+    <Content Include="images\shop-images\ladies-watches\emprio-ermani-ladies5.jpg" />
+    <Content Include="images\shop-images\ladies-watches\emprio-ermani-ladies6.jpg" />
+    <Content Include="images\shop-images\ladies-watches\fossil-ladies-coachmen-chronograph-cuff.jpg" />
+    <Content Include="images\shop-images\ladies-watches\fossil-ladies-decker-chronograph.jpg" />
+    <Content Include="images\shop-images\ladies-watches\fossil-ladies-decker-chronograph2.jpg" />
+    <Content Include="images\shop-images\ladies-watches\fossil-ladies-grant-chronograph.jpg" />
+    <Content Include="images\shop-images\ladies-watches\fossil-ladies-grant-chronograph2.jpg" />
+    <Content Include="images\shop-images\ladies-watches\fossil-ladies-grant-chronograph3.jpg" />
+    <Content Include="images\shop-images\ladies-watches\fossil-ladies-grant-chronograph4.jpg" />
+    <Content Include="images\shop-images\ladies-watches\fossil-ladies-grant.jpg" />
+    <Content Include="images\shop-images\ladies-watches\ice-watch-big-big-big-big-chrono-chronograph.jpg" />
+    <Content Include="images\shop-images\ladies-watches\ice-watch-big-big-chrono-party-xl-chronograph.jpg" />
+    <Content Include="images\shop-images\ladies-watches\ice-watch-big-big-chrono-party-xl-chronograph2.jpg" />
+    <Content Include="images\shop-images\ladies-watches\ice-watch-big-white.jpg" />
+    <Content Include="images\shop-images\ladies-watches\ice-watch-unisex-elegant-stone.jpg" />
+    <Content Include="images\shop-images\ladies-watches\ice-watch-unisex-ice-crazy.jpg" />
+    <Content Include="images\shop-images\ladies-watches\ice-watch-unisex-ice-star.jpg" />
+    <Content Include="images\shop-images\ladies-watches\ice-watch-unisex-ice-white.jpg" />
+    <Content Include="images\shop-images\ladies-watches\ice-watch-unisex-ice.jpg" />
+    <Content Include="images\shop-images\ladies-watches\ice-watch-unisex-ice2.jpg" />
+    <Content Include="images\shop-images\ladies-watches\lorus-ladies-alarm-chronograph.jpg" />
+    <Content Include="images\shop-images\ladies-watches\lorus-ladies-alarm-chronograph2.jpg" />
+    <Content Include="images\shop-images\ladies-watches\lorus-ladies-chronograph.jpg" />
+    <Content Include="images\shop-images\ladies-watches\lorus-mnes-alarm-chronograph.jpg" />
+    <Content Include="images\shop-images\ladies-watches\lorus-unisex-alarm.jpg" />
+    <Content Include="images\shop-images\ladies-watches\michaek-kors-ladies-dylan-chronograph.jpg" />
+    <Content Include="images\shop-images\ladies-watches\michael-kors-ladies-dylan-chronograph.jpg" />
+    <Content Include="images\shop-images\ladies-watches\michael-kors-ladies-lexington-chronograph.jpg" />
+    <Content Include="images\shop-images\ladies-watches\michael-kors-ladies-lexington-chronograph2.jpg" />
+    <Content Include="images\shop-images\ladies-watches\michael-kors-ladies-mercer-chronograph.jpg" />
+    <Content Include="images\shop-images\ladies-watches\michael-kors-ladies-mercer-chronograph2.jpg" />
+    <Content Include="images\shop-images\ladies-watches\michael-kors-ladies-runway-chronograph.jpg" />
+    <Content Include="images\shop-images\ladies-watches\police-ladies-cyberlite-alarm.jpg" />
+    <Content Include="images\shop-images\ladies-watches\police-ladies-cyberlite-alarm2.jpg" />
+    <Content Include="images\shop-images\ladies-watches\roaty-ladies-exclusive-chronograph.jpg" />
+    <Content Include="images\shop-images\ladies-watches\rotary-ladies-9ct-gold.jpg" />
+    <Content Include="images\shop-images\ladies-watches\rotary-ladies-aquaspeed-chronograph.jpg" />
+    <Content Include="images\shop-images\ladies-watches\rotary-ladies-aquaspeed.jpg" />
+    <Content Include="images\shop-images\ladies-watches\rotary-ladies-aquaspeed2.jpg" />
+    <Content Include="images\shop-images\ladies-watches\rotary-ladies-chronograph.jpg" />
+    <Content Include="images\shop-images\ladies-watches\rotary-ladies-chronograph2.jpg" />
+    <Content Include="images\shop-images\ladies-watches\rotary-ladies-chronograph3.jpg" />
+    <Content Include="images\shop-images\ladies-watches\rotary-ladies-exclusive-automatic.jpg" />
+    <Content Include="images\shop-images\ladies-watches\rotary-ladies-exclusive-chronograph.jpg" />
+    <Content Include="images\shop-images\ladies-watches\rotary-ladies-exclusive-skeleton-mechanism.jpg" />
+    <Content Include="images\shop-images\ladies-watches\rotary-ladies-excusive-automatic.jpg" />
+    <Content Include="images\shop-images\ladies-watches\rotary-ladies-vintage-skeleton-automatic.jpg" />
+    <Content Include="images\shop-images\ladies-watches\rotary-ladies-vintage-skeleton-automatic2.jpg" />
+    <Content Include="images\shop-images\ladies-watches\rotary-ladies-vintage-skeleton-mechanical.jpg" />
+    <Content Include="images\shop-images\ladies-watches\rotary-ladies-vintage-skeleton-mechanical2.jpg" />
+    <Content Include="images\shop-images\ladies-watches\rotaty-ladies-exclusive-chronograph.jpg" />
+    <Content Include="images\shop-images\ladies-watches\rottary-ladies-9ct-gold.jpg" />
+    <Content Include="images\shop-images\ladies-watches\royal-london-ladies.jpg" />
+    <Content Include="images\shop-images\ladies-watches\seiko-ladies-5-automatic.jpg" />
+    <Content Include="images\shop-images\ladies-watches\seiko-ladies-automatic.jpg" />
+    <Content Include="images\shop-images\ladies-watches\seiko-ladies-exclusive.jpg" />
+    <Content Include="images\shop-images\ladies-watches\seiko-ladies-exclusive3.jpg" />
+    <Content Include="images\shop-images\ladies-watches\seiko-ladies-kinetic.jpg" />
+    <Content Include="images\shop-images\ladies-watches\seiko-ladies-kinetic2.jpg" />
+    <Content Include="images\shop-images\ladies-watches\sekonda-ladies-chronograph.jpg" />
+    <Content Include="images\shop-images\ladies-watches\sekonda-ladies-chronograph2.jpg" />
+    <Content Include="images\shop-images\ladies-watches\sekonda-ladies-chronograph3.jpg" />
+    <Content Include="images\shop-images\ladies-watches\sekonda-ladies-chronograph4.jpg" />
+    <Content Include="images\shop-images\ladies-watches\sekonda-ladies-night-fall-chronograph.jpg" />
+    <Content Include="images\shop-images\ladies-watches\sekonda-ladies.jpg" />
+    <Content Include="images\shop-images\ladies-watches\sekonda-ladies2.jpg" />
+    <Content Include="images\shop-images\ladies-watches\sekonda-ladies3.jpg" />
+    <Content Include="images\shop-images\ladies-watches\sekonda-ladies4.jpg" />
+    <Content Include="images\shop-images\ladies-watches\sekonda-ladies5.jpg" />
+    <Content Include="images\shop-images\ladies-watches\sekonda-ladies6.jpg" />
+    <Content Include="images\shop-images\ladies-watches\sekonda-ladies7.jpg" />
+    <Content Include="images\shop-images\ladies-watches\sekonda-unisex-skeleton-automatic-diamond.jpg" />
+    <Content Include="images\shop-images\ladies-watches\skagen-ladies-activ.jpg" />
+    <Content Include="images\shop-images\ladies-watches\skagen-ladies-aktiv-titanium-chronograph.jpg" />
+    <Content Include="images\shop-images\ladies-watches\skagen-ladies-aktiv-titanium.jpg" />
+    <Content Include="images\shop-images\ladies-watches\skagen-ladies-aktiv-titanium2.jpg" />
+    <Content Include="images\shop-images\ladies-watches\skagen-ladies-aktiv-titanium3.jpg" />
+    <Content Include="images\shop-images\ladies-watches\skagen-ladies-clasic.jpg" />
+    <Content Include="images\shop-images\ladies-watches\skagen-ladies-klassik-chronograph.jpg" />
+    <Content Include="images\shop-images\ladies-watches\skagen-ladies-matthies-titanium.jpg" />
+    <Content Include="images\shop-images\ladies-watches\vivienne-westwood-ladies-camden-lock.jpg" />
+    <Content Include="images\shop-images\ladies-watches\vivienne-westwood-ladies-grosvenor.jpg" />
+    <Content Include="images\shop-images\mens-watches\accurist-london-mens-chronograph.jpg" />
+    <Content Include="images\shop-images\mens-watches\accurist-mens-chronograph.jpg" />
+    <Content Include="images\shop-images\mens-watches\accurist-london-mens-chronograph2.jpg" />
+    <Content Include="images\shop-images\mens-watches\adidas-unisex-santiago-42.jpg" />
+    <Content Include="images\shop-images\mens-watches\adidas-unisex-santiago.jpg" />
+    <Content Include="images\shop-images\mens-watches\armani-exchange-mens-banks-chronograph.jpg" />
+    <Content Include="images\shop-images\mens-watches\armani-exchange-mens-banks-chronograph2.jpg" />
+    <Content Include="images\shop-images\mens-watches\armani-exchange-mens-banks-chronograph3.jpg" />
+    <Content Include="images\shop-images\mens-watches\armani-exchange-mens-banls-chronograph.jpg" />
+    <Content Include="images\shop-images\mens-watches\accurist-mens-chronograph3.jpg" />
+    <Content Include="images\shop-images\mens-watches\armani-exchange-mens-hampton2.jpg" />
+    <Content Include="images\shop-images\mens-watches\armani-exchange-mens-hampton3.jpg" />
+    <Content Include="images\shop-images\mens-watches\armani-exchange-mens-tenno.jpg" />
+    <Content Include="images\shop-images\mens-watches\armani-exchange-mens-zulu-chronograph.jpg" />
+    <Content Include="images\shop-images\mens-watches\breo-unisex-classic.jpg" />
+    <Content Include="images\shop-images\mens-watches\breo-unisex-classic2.jpg" />
+    <Content Include="images\shop-images\mens-watches\bulova-mens-automatic.jpg" />
+    <Content Include="images\shop-images\mens-watches\bulova-mens-marine-staart-duramic-blue-chronograph.jpg" />
+    <Content Include="images\shop-images\mens-watches\bulova-mens-marine-star-chronograph.jpg" />
+    <Content Include="images\shop-images\mens-watches\bulova-mens-marine-star.jpg" />
+    <Content Include="images\shop-images\mens-watches\bulova-mens-mechanicaals-automatic.jpg" />
+    <Content Include="images\shop-images\mens-watches\bulova-mens-mechanicals-automatic.jpg" />
+    <Content Include="images\shop-images\mens-watches\bulova-mens-precisionist-champlain-chronograph.jpg" />
+    <Content Include="images\shop-images\mens-watches\bulova-mens-precisionist-champlain-diver.jpg" />
+    <Content Include="images\shop-images\mens-watches\casio-mens-edifice-alarm-chronograph-solar-powered.jpg" />
+    <Content Include="images\shop-images\mens-watches\casio-mens-edifice-chronograph.jpg" />
+    <Content Include="images\shop-images\mens-watches\casio-mens-edifice-chronograph2.jpg" />
+    <Content Include="images\shop-images\mens-watches\casio-mens-edifice-chronograph3.jpg" />
+    <Content Include="images\shop-images\mens-watches\casio-mens-edifice-red-bull-chronograph.jpg" />
+    <Content Include="images\shop-images\mens-watches\casio-mens-edifice-red-bull-racing-limited-edition-alarm.jpg" />
+    <Content Include="images\shop-images\mens-watches\casio-mens-edifice-wave-ceptor-alarm-chronograph-radio.jpg" />
+    <Content Include="images\shop-images\mens-watches\casio-mens-g-chock-alarm-chronograph2.jpg" />
+    <Content Include="images\shop-images\mens-watches\casio-mens-g-shock-alarm-chronograph-radio-controlled.jpg" />
+    <Content Include="images\shop-images\mens-watches\casio-mens-g-shock-alarm-chronograph.jpg" />
+    <Content Include="images\shop-images\mens-watches\casio-mens-g-shock-alarm-chronograph3.jpg" />
+    <Content Include="images\shop-images\mens-watches\casio-mens-g-shock-alarm-chronograph4.jpg" />
+    <Content Include="images\shop-images\mens-watches\casio-mens-g-shock-alarm-chronograph5.jpg" />
+    <Content Include="images\shop-images\mens-watches\casio-mens-g-shock-alarm-chronograph6.jpg" />
+    <Content Include="images\shop-images\mens-watches\casio-mens-g-shock-alarm-chronograph7.jpg" />
+    <Content Include="images\shop-images\mens-watches\casio-mens-g-shock-alarm-chronograph8.jpg" />
+    <Content Include="images\shop-images\mens-watches\casio-mens-g-shock-alarm-chronograph9.jpg" />
+    <Content Include="images\shop-images\mens-watches\casio-mens-g-shock-g-rescue-alarm-chronograph.jpg" />
+    <Content Include="images\shop-images\mens-watches\casio-mens-g-shock-g-rescue-alarm-chronograph2.jpg" />
+    <Content Include="images\shop-images\mens-watches\casio-mens-g-shock-gravity-defier-alarm-chronograph-radio.jpg" />
+    <Content Include="images\shop-images\mens-watches\casio-mens-g-shock-gravity-defier-alarm-chronograph-radio2.jpg" />
+    <Content Include="images\shop-images\mens-watches\casio-mens-g-shock-premium-gravity-defier-alarm-chronograph.jpg" />
+    <Content Include="images\shop-images\mens-watches\casio-mens-g-shock-premium-gravity-defier-alarm-chronograph2.jpg" />
+    <Content Include="images\shop-images\mens-watches\casio-mens-g-shock-sky-cockpit-alarm-chronograph.jpg" />
+    <Content Include="images\shop-images\mens-watches\casio-mens-g-shock-waveceptor-alarm-chronograph-radio.jpg" />
+    <Content Include="images\shop-images\mens-watches\casio-mens-premium-g-shock-gravity-master-gps-hybrid-alarm.jpg" />
+    <Content Include="images\shop-images\mens-watches\casio-mens-waveceptor-alarm-chronograph.jpg" />
+    <Content Include="images\shop-images\mens-watches\casio-mens-waveceptor-titanium-alarm-chronograph.jpg" />
+    <Content Include="images\shop-images\mens-watches\casio-unisex-clasic-alarm-chronograph.jpg" />
+    <Content Include="images\shop-images\mens-watches\casio-unisex-classic-alarm-chronograph.jpg" />
+    <Content Include="images\shop-images\mens-watches\casio-unisex-classic-alarm-chronograph2.jpg" />
+    <Content Include="images\shop-images\mens-watches\casio-unisex-classic-alarm-chronograph3.jpg" />
+    <Content Include="images\shop-images\mens-watches\casio-unisex-classic.jpg" />
+    <Content Include="images\shop-images\mens-watches\citizen-mens-calibre-8700-alarm-diamond-eco-drive.jpg" />
+    <Content Include="images\shop-images\mens-watches\citizen-mens-calibre-8700-alarm-eco-drive.jpg" />
+    <Content Include="images\shop-images\mens-watches\citizen-mens-calibre-8700-alarm-eco-drive2.jpg" />
+    <Content Include="images\shop-images\mens-watches\citizen-mens-calibre-8700-eco-drive.jpg" />
+    <Content Include="images\shop-images\mens-watches\citizen-mens-chrono-pepretual-a-t-alarm-chronograph-radio.jpg" />
+    <Content Include="images\shop-images\mens-watches\citizen-mens-chrono-perpetua-a-t-alarm-chronograph-radio.jpg" />
+    <Content Include="images\shop-images\mens-watches\citizen-mens-chrono-perpetual-a-t-alarm-chronograph-radio.jpg" />
+    <Content Include="images\shop-images\mens-watches\citizen-mens-chrono-perpetual-au-alarm-chronoograph-radio.jpg" />
+    <Content Include="images\shop-images\mens-watches\citizen-mens-eco-drive.jpg" />
+    <Content Include="images\shop-images\mens-watches\citizen-mens-golf-eco-drive.jpg" />
+    <Content Include="images\shop-images\mens-watches\citizen-mens-mesh-chronograph-eco-drive.jpg" />
+    <Content Include="images\shop-images\mens-watches\citizen-mens-mesh-chronograph-eco-drive2.jpg" />
+    <Content Include="images\shop-images\mens-watches\citizen-mens-navihawk-alarm-chronograph-radio-controlled.jpg" />
+    <Content Include="images\shop-images\mens-watches\citizen-mens-nightawk-chronograph-eco-drive.jpg" />
+    <Content Include="images\shop-images\mens-watches\citizen-mens-nightawk-titanium-chronograph-eco-drive.jpg" />
+    <Content Include="images\shop-images\mens-watches\citizen-mens-red-arrows-world-time-chronograph-eco-drive.jpg" />
+    <Content Include="images\shop-images\mens-watches\citizen-mens-skyhawk-a-t-red-arrows-titanium-alarm-chronograph.jpg" />
+    <Content Include="images\shop-images\mens-watches\citizen-mens-titatium-eco-drive.jpg" />
+    <Content Include="images\shop-images\mens-watches\davosa-mens-ternos-ceramic-automatic.jpg" />
+    <Content Include="images\shop-images\mens-watches\diesel-men-goose-chronograph.jpg" />
+    <Content Include="images\shop-images\mens-watches\diesel-mens-big-daddy-chronograph.jpg" />
+    <Content Include="images\shop-images\mens-watches\diesel-mens-big-daddy-chronograph2.jpg" />
+    <Content Include="images\shop-images\mens-watches\diesel-mens-big-daddy-chronograph3.jpg" />
+    <Content Include="images\shop-images\mens-watches\diesel-mens-big-daddy-chronograph4.jpg" />
+    <Content Include="images\shop-images\mens-watches\diesel-mens-franchise-silicon.jpg" />
+    <Content Include="images\shop-images\mens-watches\diesel-mens-master-chief-chronograph.jpg" />
+    <Content Include="images\shop-images\mens-watches\diesel-mens-master-chief-chronograph2.jpg" />
+    <Content Include="images\shop-images\mens-watches\diesel-mens-mega-chief-chronograph.jpg" />
+    <Content Include="images\shop-images\mens-watches\diesel-mens-mega-chief-chronograph2..jpg" />
+    <Content Include="images\shop-images\mens-watches\diesel-mens-mega-chief-chronograph2.jpg" />
+    <Content Include="images\shop-images\mens-watches\diesel-mens-mega-chief-chronograph3.jpg" />
+    <Content Include="images\shop-images\mens-watches\diesel-mens-xl-franchise-chronograph.jpg" />
+    <Content Include="images\shop-images\mens-watches\disney-by-ingersoll-unisex-classic-mickey-mouse.jpg" />
+    <Content Include="images\shop-images\mens-watches\dreyfuss-co-mens-1925-automatic-chronograph.jpg" />
+    <Content Include="images\shop-images\mens-watches\dreyfuss-co-mens-1925-moonphase-automatic.jpg" />
+    <Content Include="images\shop-images\mens-watches\dreyfuss-co-mens-1953-automatic.jpg" />
+    <Content Include="images\shop-images\mens-watches\dreyfuss-co-mens-1953-chronograph.jpg" />
+    <Content Include="images\shop-images\mens-watches\dreysuff-co-mens-automatic-chronograph.jpg" />
+    <Content Include="images\shop-images\mens-watches\emporio-armani-mens-ceramica-ceramic-chronograph2.jpg" />
+    <Content Include="images\shop-images\mens-watches\emporio-armani-mens-ceramica-ceramic-chronograph3.jpg" />
+    <Content Include="images\shop-images\mens-watches\emporio-armani-mens-chronograph.jpg" />
+    <Content Include="images\shop-images\mens-watches\emporio-armani-mens-chronograph2.jpg" />
+    <Content Include="images\shop-images\mens-watches\emporio-armani-mens-chronograph3.jpg" />
+    <Content Include="images\shop-images\mens-watches\emporio-armani-mens-chronograph4.jpg" />
+    <Content Include="images\shop-images\mens-watches\emporio-armani-mens-chronograph5.jpg" />
+    <Content Include="images\shop-images\mens-watches\emporio-armani-mens-chronograph6.jpg" />
+    <Content Include="images\shop-images\mens-watches\emporio-armani-mens-chronograph7.jpg" />
+    <Content Include="images\shop-images\mens-watches\emporio-armani-mens-cuddink-gift-set-chronograph.jpg" />
+    <Content Include="images\shop-images\mens-watches\emporio-armani-mens.jpg" />
+    <Content Include="images\shop-images\mens-watches\emporio-armani-mens2.jpg" />
+    <Content Include="images\shop-images\mens-watches\emporio-armani-mens3.jpg" />
+    <Content Include="images\shop-images\mens-watches\emporio-armani-mens4.jpg" />
+    <Content Include="images\shop-images\mens-watches\emporio-armani-mens5.jpg" />
+    <Content Include="images\shop-images\mens-watches\emporio-armani-mens6.jpg" />
+    <Content Include="images\shop-images\mens-watches\emporio-armani-mens7.jpg" />
+    <Content Include="images\shop-images\mens-watches\emporio-emani-mens-chronograph2.jpg" />
+    <Content Include="images\shop-images\mens-watches\emporio-ermani-mens-ceramica-ceramic-chronograph.jpg" />
+    <Content Include="images\shop-images\mens-watches\emprio-armani-mens-chronograph.jpg" />
+    <Content Include="images\shop-images\mens-watches\emprio-armani-mens.jpg" />
+    <Content Include="images\shop-images\mens-watches\emprio-ermani-mens4.jpg" />
+    <Content Include="images\shop-images\mens-watches\emprio-ermani-mens5.jpg" />
+    <Content Include="images\shop-images\mens-watches\emprio-ermani-mens6.jpg" />
+    <Content Include="images\shop-images\mens-watches\fossil-mens-coachmen-chronograph-cuff.jpg" />
+    <Content Include="images\shop-images\mens-watches\fossil-mens-decker-chronograph.jpg" />
+    <Content Include="images\shop-images\mens-watches\fossil-mens-decker-chronograph2.jpg" />
+    <Content Include="images\shop-images\mens-watches\fossil-mens-grant-chronograph.jpg" />
+    <Content Include="images\shop-images\mens-watches\fossil-mens-grant-chronograph2.jpg" />
+    <Content Include="images\shop-images\mens-watches\fossil-mens-grant-chronograph3.jpg" />
+    <Content Include="images\shop-images\mens-watches\fossil-mens-grant-chronograph4.jpg" />
+    <Content Include="images\shop-images\mens-watches\fossil-mens-grant.jpg" />
+    <Content Include="images\shop-images\mens-watches\ice-watch-big-big-big-big-chrono-chronograph.jpg" />
+    <Content Include="images\shop-images\mens-watches\ice-watch-big-big-chrono-party-xl-chronograph.jpg" />
+    <Content Include="images\shop-images\mens-watches\ice-watch-big-big-chrono-party-xl-chronograph2.jpg" />
+    <Content Include="images\shop-images\mens-watches\ice-watch-big-white.jpg" />
+    <Content Include="images\shop-images\mens-watches\ice-watch-unisex-elegant-stone.jpg" />
+    <Content Include="images\shop-images\mens-watches\ice-watch-unisex-ice-crazy.jpg" />
+    <Content Include="images\shop-images\mens-watches\ice-watch-unisex-ice-star.jpg" />
+    <Content Include="images\shop-images\mens-watches\ice-watch-unisex-ice-white.jpg" />
+    <Content Include="images\shop-images\mens-watches\ice-watch-unisex-ice.jpg" />
+    <Content Include="images\shop-images\mens-watches\ice-watch-unisex-ice2.jpg" />
+    <Content Include="images\shop-images\mens-watches\lorus-mens-alarm-chronograph.jpg" />
+    <Content Include="images\shop-images\mens-watches\lorus-mens-alarm-chronograph2.jpg" />
+    <Content Include="images\shop-images\mens-watches\lorus-mens-chronograph.jpg" />
+    <Content Include="images\shop-images\mens-watches\lorus-mnes-alarm-chronograph.jpg" />
+    <Content Include="images\shop-images\mens-watches\lorus-unisex-alarm.jpg" />
+    <Content Include="images\shop-images\mens-watches\michaek-kors-mens-dylan-chronograph.jpg" />
+    <Content Include="images\shop-images\mens-watches\michael-kors-mens-dylan-chronograph.jpg" />
+    <Content Include="images\shop-images\mens-watches\michael-kors-mens-lexington-chronograph.jpg" />
+    <Content Include="images\shop-images\mens-watches\michael-kors-mens-lexington-chronograph2.jpg" />
+    <Content Include="images\shop-images\mens-watches\michael-kors-mens-mercer-chronograph.jpg" />
+    <Content Include="images\shop-images\mens-watches\michael-kors-mens-mercer-chronograph2.jpg" />
+    <Content Include="images\shop-images\mens-watches\michael-kors-mens-runway-chronograph.jpg" />
+    <Content Include="images\shop-images\mens-watches\police-mens-cyberlite-alarm.jpg" />
+    <Content Include="images\shop-images\mens-watches\police-mens-cyberlite-alarm2.jpg" />
+    <Content Include="images\shop-images\mens-watches\roaty-mens-exclusive-chronograph.jpg" />
+    <Content Include="images\shop-images\mens-watches\rotary-mens-9ct-gold.jpg" />
+    <Content Include="images\shop-images\mens-watches\rotary-mens-aquaspeed-chronograph.jpg" />
+    <Content Include="images\shop-images\mens-watches\rotary-mens-aquaspeed.jpg" />
+    <Content Include="images\shop-images\mens-watches\rotary-mens-aquaspeed2.jpg" />
+    <Content Include="images\shop-images\mens-watches\rotary-mens-chronograph.jpg" />
+    <Content Include="images\shop-images\mens-watches\rotary-mens-chronograph2.jpg" />
+    <Content Include="images\shop-images\mens-watches\rotary-mens-chronograph3.jpg" />
+    <Content Include="images\shop-images\mens-watches\rotary-mens-exclusive-automatic.jpg" />
+    <Content Include="images\shop-images\mens-watches\rotary-mens-exclusive-chronograph.jpg" />
+    <Content Include="images\shop-images\mens-watches\rotary-mens-exclusive-skeleton-mechanism.jpg" />
+    <Content Include="images\shop-images\mens-watches\rotary-mens-excusive-automatic.jpg" />
+    <Content Include="images\shop-images\mens-watches\rotary-mens-vintage-skeleton-automatic.jpg" />
+    <Content Include="images\shop-images\mens-watches\rotary-mens-vintage-skeleton-automatic2.jpg" />
+    <Content Include="images\shop-images\mens-watches\rotary-mens-vintage-skeleton-mechanical.jpg" />
+    <Content Include="images\shop-images\mens-watches\rotary-mens-vintage-skeleton-mechanical2.jpg" />
+    <Content Include="images\shop-images\mens-watches\rotaty-mens-exclusive-chronograph.jpg" />
+    <Content Include="images\shop-images\mens-watches\rottary-mens-9ct-gold.jpg" />
+    <Content Include="images\shop-images\mens-watches\royal-london-mens.jpg" />
+    <Content Include="images\shop-images\mens-watches\seiko-mens-5-automatic.jpg" />
+    <Content Include="images\shop-images\mens-watches\seiko-mens-automatic.jpg" />
+    <Content Include="images\shop-images\mens-watches\seiko-mens-exclusive.jpg" />
+    <Content Include="images\shop-images\mens-watches\seiko-mens-exclusive3.jpg" />
+    <Content Include="images\shop-images\mens-watches\seiko-mens-kinetic.jpg" />
+    <Content Include="images\shop-images\mens-watches\seiko-mens-kinetic2.jpg" />
+    <Content Include="images\shop-images\mens-watches\sekonda-mens-chronograph.jpg" />
+    <Content Include="images\shop-images\mens-watches\sekonda-mens-chronograph2.jpg" />
+    <Content Include="images\shop-images\mens-watches\sekonda-mens-chronograph3.jpg" />
+    <Content Include="images\shop-images\mens-watches\sekonda-mens-chronograph4.jpg" />
+    <Content Include="images\shop-images\mens-watches\sekonda-mens-night-fall-chronograph.jpg" />
+    <Content Include="images\shop-images\mens-watches\sekonda-mens.jpg" />
+    <Content Include="images\shop-images\mens-watches\sekonda-mens2.jpg" />
+    <Content Include="images\shop-images\mens-watches\sekonda-mens3.jpg" />
+    <Content Include="images\shop-images\mens-watches\sekonda-mens4.jpg" />
+    <Content Include="images\shop-images\mens-watches\sekonda-mens5.jpg" />
+    <Content Include="images\shop-images\mens-watches\sekonda-mens6.jpg" />
+    <Content Include="images\shop-images\mens-watches\sekonda-mens7.jpg" />
+    <Content Include="images\shop-images\mens-watches\sekonda-unisex-skeleton-automatic-diamond.jpg" />
+    <Content Include="images\shop-images\mens-watches\skagen-mens-activ.jpg" />
+    <Content Include="images\shop-images\mens-watches\skagen-mens-aktiv-titanium-chronograph.jpg" />
+    <Content Include="images\shop-images\mens-watches\skagen-mens-aktiv-titanium.jpg" />
+    <Content Include="images\shop-images\mens-watches\skagen-mens-aktiv-titanium2.jpg" />
+    <Content Include="images\shop-images\mens-watches\skagen-mens-aktiv-titanium3.jpg" />
+    <Content Include="images\shop-images\mens-watches\skagen-mens-clasic.jpg" />
+    <Content Include="images\shop-images\mens-watches\skagen-mens-klassik-chronograph.jpg" />
+    <Content Include="images\shop-images\mens-watches\skagen-mens-matthies-titanium.jpg" />
+    <Content Include="images\shop-images\mens-watches\vivienne-westwood-mens-camden-lock.jpg" />
+    <Content Include="images\shop-images\mens-watches\vivienne-westwood-mens-grosvenor.jpg" />
+    <Content Include="libs\jquery-2.1.1.js" />
+    <Content Include="men-watches.html" />
+    <Content Include="scripts\contacts.js" />
+    <Content Include="scripts\mens-watches.js" />
+    <Content Include="scripts\testimonials.js" />
+    <Content Include="shop.html" />
+    <Content Include="styles\simplePagination.css" />
+    <Content Include="styles\style.css" />
+    <Content Include="testimonials.html" />
+    <Content Include="Web.config" />
+    <Content Include="women-watches.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="styles\fonts\OpenSans-Light.ttf" />
+    <Content Include="styles\fonts\Mark Simonson - Proxima Nova Regular.otf" />
+    <Content Include="styles\fonts\proximanovalight.ttf" />
+    <Content Include="styles\fonts\PTF56F.ttf" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>3712</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:3713/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

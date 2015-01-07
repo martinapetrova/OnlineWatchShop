@@ -1,0 +1,108 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Online watch shop</title>
+        <link href="styles/style.css" rel="stylesheet" />
+    </head>
+    <body>
+        <header class="banner-div">
+            <img src="images/banner-images/contacts.jpg" />
+        </header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="home.html">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="" onclick="return false;">
+                        Shop
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="men-watches.html">Men's watches</a>
+                        </li>
+                        <li>
+                            <a href="women-watches.html">Women's watches</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="testimonials.html">
+                        Testimonials
+                    </a>
+                </li>
+                <li>
+                    <a href="contacts.html">
+                        Contact
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <div id="contacts-title">
+            <p>
+                Getting in Touch
+            </p>
+        </div>
+        <hr />
+        <div id="contacts-body">
+            <p>
+                Whether you’re looking for answers, would like to solve a problem, or just want to let us know how we did, contact us through sending a query online or visiting our shop in person. We’ll help you resolve your issues quickly and easily.
+            </p>
+        </div>
+        <div id="contacts-map-canvas"></div>
+        <hr />
+        <form id="contacts-form">
+            <label for="first-name" id="nameLbl">Name *</label>
+            <br />
+            <input type="text" id="first-name" />
+            <input type="text" id="last-name" />
+            <br />
+            <label for="first-name" id="firstNameLbl" class="small" >First Name</label>
+            <label for="first-name" id="lastNameLbl" class="small">Last Name</label>
+            <br />
+            <label for="email" id="emailLbl">Email Address *</label>
+            <br />
+            <input type="text" id="email" />
+            <br />
+            <label for="message" id="messageLbl">Message *</label>
+            <br />
+            <textarea id="message"></textarea>
+            <br />
+            <button id="submitBtn">Submit</button>
+        </form>
+        <div id="contacts-sidebar">
+            <p>
+                Our address
+            </p>
+            <p>
+                "Srebarna" Str. 28
+            </p>
+            <p>
+                1407 Sofia
+            </p>
+            <p>
+                Bulgaira
+            </p>
+            <p>
+                T +359 87 926 391
+            </p>
+            <p>
+                F +359 87 926 381
+            </p>
+            <p>
+                E info@watchshop.com
+            </p>
+        </div>
+        <hr />
+        <footer>
+            <p>
+                &copy; Martina Petrova 2014
+            </p>
+        </footer>
+        <script src="https://maps.googleapis.com/maps/api/js"></script>
+        <script src="libs/jquery-2.1.1.js"></script>
+        <script src="scripts/contacts.js"></script>
+    </body>
+</html>

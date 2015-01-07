@@ -1,0 +1,12 @@
+c:\users\lili\documents\visual studio 2013\Projects\OnlineWatchShop\OnlineWatchShop\bin\OnlineWatchShop.dll.config
+c:\users\lili\documents\visual studio 2013\Projects\OnlineWatchShop\OnlineWatchShop\bin\OnlineWatchShop.dll
+c:\users\lili\documents\visual studio 2013\Projects\OnlineWatchShop\OnlineWatchShop\bin\OnlineWatchShop.pdb
+c:\users\lili\documents\visual studio 2013\Projects\OnlineWatchShop\OnlineWatchShop\obj\Debug\OnlineWatchShop.csprojResolveAssemblyReference.cache
+c:\users\lili\documents\visual studio 2013\Projects\OnlineWatchShop\OnlineWatchShop\obj\Debug\OnlineWatchShop.dll
+c:\users\lili\documents\visual studio 2013\Projects\OnlineWatchShop\OnlineWatchShop\obj\Debug\OnlineWatchShop.pdb
+D:\Download\Project\OnlineWatchShop\bin\OnlineWatchShop.dll.config
+D:\Download\Project\OnlineWatchShop\bin\OnlineWatchShop.dll
+D:\Download\Project\OnlineWatchShop\bin\OnlineWatchShop.pdb
+D:\Download\Project\OnlineWatchShop\obj\Debug\OnlineWatchShop.csprojResolveAssemblyReference.cache
+D:\Download\Project\OnlineWatchShop\obj\Debug\OnlineWatchShop.dll
+D:\Download\Project\OnlineWatchShop\obj\Debug\OnlineWatchShop.pdb
