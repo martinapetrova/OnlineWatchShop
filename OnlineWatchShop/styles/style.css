@@ -259,23 +259,30 @@ nav ul li > ul li a
 
 #mens-shop-body table, #ladies-shop-body table
 {
-    border-spacing:40px 30px;
+    border-spacing:20px 30px;
+    font-family: proximanovalight;
 }
 
 #mens-shop-body table img, #ladies-shop-body table img
 {
     display: block;
     margin-left: auto;
-    margin-right: auto
+    margin-right: auto;
+    height:150px;
+    width:97px;
+}
+
+#mens-shop-body table td, #ladies-shop-body table td
+{
+    text-align:center;
 }
 
 #mens-shop-body table p, #ladies-shop-body table p
 {
     line-height:7px;
     text-align:center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size:14px;
-    font-weight:500;
+    font-size:16px;
+    font-weight:600;
     color:#3a3635;
 }
 
@@ -286,19 +293,22 @@ nav ul li > ul li a
 
 #mens-shop-body table p:last-of-type, #ladies-shop-body table p:last-of-type
 {
-    margin-top:21px;
-    font-family:Verdana, Arial, Helvetica, sans-serif;
-    font-size:15px;
-    font-weight:600;
-    color:#aa0000;
+    margin-top:20px;
+    font-size:15.5px;
+    font-weight:800;
 }
 
-
-#mens-shop-body table button, #ladies-shop-body table button
+#mens-shop-body table a, #ladies-shop-body table a
 {
     display:block;
-    margin:20px auto 0 auto;
-    font-size:13px;
+    margin-top:8px;
+    padding:12.5px 27px;
+    font-size:11.5px;
+    font-weight:500;
+    letter-spacing:1px;
+    background-color:#272727;
+    color:#fff;
+    text-decoration:none;
 }
 
 
