@@ -473,6 +473,7 @@
     <Content Include="images\shop-images\mens-watches\vivienne-westwood-mens-camden-lock.jpg" />
     <Content Include="images\shop-images\mens-watches\vivienne-westwood-mens-grosvenor.jpg" />
     <Content Include="libs\jquery-2.1.1.js" />
+    <Content Include="libs\simpleCart.js" />
     <Content Include="men-watches.html" />
     <Content Include="scripts\contacts.js" />
     <Content Include="scripts\mens-watches.js" />

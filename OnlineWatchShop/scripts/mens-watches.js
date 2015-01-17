@@ -473,8 +473,10 @@ for (var i = 0; i < mensWatches.length; i++) {
     }
 
     var $td = document.createElement('td');
+    $td.className = 'simpleCart_shelfItem';
 
     var $image = document.createElement('img');
+    $image.className = 'item_thumb';
     $image.src = mensWatches[i].imageSource;
     $td.appendChild($image);
 
@@ -483,16 +485,20 @@ for (var i = 0; i < mensWatches.length; i++) {
     $td.appendChild($brand);
 
     var $title = document.createElement('p');
+    $title.className = 'item_name';
     $title.textContent = mensWatches[i].title;
     $td.appendChild($title);
 
     var $price = document.createElement('p');
+    $price.className = 'item_price';
     $price.textContent = mensWatches[i].price;
     $td.appendChild($price);
 
-    var $addToCartBtn = document.createElement('button');
-    $addToCartBtn.textContent = 'ADD TO CART';
-    $td.appendChild($addToCartBtn);
+    var $addToCart = document.createElement('a');
+    $addToCart.className = 'item_add';
+    $addToCart.href='javascript:;'
+    $addToCart.textContent = 'ADD TO CART';
+    $td.appendChild($addToCart);
 
     $tr.appendChild($td);
 

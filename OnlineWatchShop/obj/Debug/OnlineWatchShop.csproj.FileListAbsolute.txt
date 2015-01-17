@@ -10,3 +10,9 @@ D:\Download\Project\OnlineWatchShop\bin\OnlineWatchShop.pdb
 D:\Download\Project\OnlineWatchShop\obj\Debug\OnlineWatchShop.csprojResolveAssemblyReference.cache
 D:\Download\Project\OnlineWatchShop\obj\Debug\OnlineWatchShop.dll
 D:\Download\Project\OnlineWatchShop\obj\Debug\OnlineWatchShop.pdb
+C:\Users\MARTY\Desktop\OnlineWatchShop\OnlineWatchShop\bin\OnlineWatchShop.dll.config
+C:\Users\MARTY\Desktop\OnlineWatchShop\OnlineWatchShop\bin\OnlineWatchShop.dll
+C:\Users\MARTY\Desktop\OnlineWatchShop\OnlineWatchShop\bin\OnlineWatchShop.pdb
+C:\Users\MARTY\Desktop\OnlineWatchShop\OnlineWatchShop\obj\Debug\OnlineWatchShop.csprojResolveAssemblyReference.cache
+C:\Users\MARTY\Desktop\OnlineWatchShop\OnlineWatchShop\obj\Debug\OnlineWatchShop.dll
+C:\Users\MARTY\Desktop\OnlineWatchShop\OnlineWatchShop\obj\Debug\OnlineWatchShop.pdb
