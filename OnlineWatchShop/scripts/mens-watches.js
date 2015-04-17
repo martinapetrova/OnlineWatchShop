@@ -1,4 +1,4 @@
-﻿/// <reference path="D:\Download\Project\OnlineWatchShop\libs/jquery-2.1.1.js" />
+﻿/// <reference path="../libs/jquery-2.1.1.js" />
 var mensWatches = [
     {
         imageSource: '../images/shop-images/mens-watches/accurist-london-mens-chronograph.jpg',
