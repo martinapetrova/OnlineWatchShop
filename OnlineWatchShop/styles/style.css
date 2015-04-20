@@ -254,12 +254,12 @@ nav ul li > ul li a
 
 #mens-shop-body, #ladies-shop-body
 {
-    padding: 50px 80px;
+    padding: 50px 48px;
 }
 
 #mens-shop-body table, #ladies-shop-body table
 {
-    border-spacing:20px 30px;
+    border-spacing:18px 30px;
     font-family: proximanovalight;
 }
 
@@ -268,8 +268,7 @@ nav ul li > ul li a
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height:150px;
-    width:97px;
+    height:175px;
 }
 
 #mens-shop-body table td, #ladies-shop-body table td
@@ -279,9 +278,9 @@ nav ul li > ul li a
 
 #mens-shop-body table p, #ladies-shop-body table p
 {
-    line-height:7px;
+    line-height:5.5px;
     text-align:center;
-    font-size:16px;
+    font-size:15.5px;
     font-weight:600;
     color:#3a3635;
 }
@@ -293,25 +292,37 @@ nav ul li > ul li a
 
 #mens-shop-body table p:last-of-type, #ladies-shop-body table p:last-of-type
 {
-    margin-top:20px;
+    margin-top:19px;
     font-size:15.5px;
     font-weight:800;
 }
 
 #mens-shop-body table a, #ladies-shop-body table a
 {
+    width:113px;
     display:block;
     margin-top:8px;
-    padding:12.5px 27px;
+    padding:12px 27px;
     font-size:11.5px;
-    font-weight:500;
+    font-weight:700;
     letter-spacing:1px;
     background-color:#272727;
     color:#fff;
     text-decoration:none;
+    border-radius:1.5px;
 }
 
+#mens-shop-sidebar, #ladies-shop-sidebar
+{
+    position:absolute;
+    top:786px;
+    left:1030px;
+}
 
+#mens-shop-sidebar input[type=search], #ladies-shop-sidebar input[type=search]
+{
+    width:245px
+}
 
 
 

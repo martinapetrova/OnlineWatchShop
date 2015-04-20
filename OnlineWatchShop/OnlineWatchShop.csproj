@@ -480,6 +480,7 @@
     <Content Include="scripts\contacts.js" />
     <Content Include="scripts\ladies-watches.js" />
     <Content Include="scripts\mens-watches.js" />
+    <Content Include="scripts\shop.js" />
     <Content Include="scripts\testimonials.js" />
     <Content Include="shop.html" />
     <Content Include="styles\simplePagination.css" />

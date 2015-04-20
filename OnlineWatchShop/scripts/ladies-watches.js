@@ -404,7 +404,7 @@ var ladiesWatches = [
         price: '230.00 лв.'
     },
     {
-        imageSource: '../images/shop-images/ladies-watchescitizen-ladies-red-arrows-world-time-chronograph-eco-drive.jpg',
+        imageSource: '../images/shop-images/ladies-watches/citizen-ladies-red-arrows-world-time-chronograph-eco-drive.jpg',
         brand: 'Accurist',
         title: 'Lady\'s chronograph',
         price: '140.00 лв.'
@@ -464,3 +464,7 @@ var ladiesWatches = [
         title: 'Unisex Santiago',
         price: '340.00 лв.'
     }];
+
+$.getScript('../scripts/shop.js', function () {
+    addShopItemsToPage('#ladies-shop-body', ladiesWatches);
+});
