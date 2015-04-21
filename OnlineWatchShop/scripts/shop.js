@@ -16,17 +16,18 @@
         $td.appendChild($image);
 
         var $brand = document.createElement('p');
+        $brand.className = 'item_brand';
         $brand.textContent =itemsArray[i].brand;
         $td.appendChild($brand);
 
         var $title = document.createElement('p');
         $title.className = 'item_name';
-        $title.textContent =itemsArray[i].title;
+        $title.textContent = itemsArray[i].title;
         $td.appendChild($title);
 
         var $price = document.createElement('p');
         $price.className = 'item_price';
-        $price.textContent =itemsArray[i].price;
+        $price.textContent = itemsArray[i].price;
         $td.appendChild($price);
 
         var $addToCart = document.createElement('a');

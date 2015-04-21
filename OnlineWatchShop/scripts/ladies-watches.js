@@ -1,5 +1,7 @@
 ﻿/// <reference path="../libs/jquery-2.1.1.js" />
 
+$.getScript('../scripts/shop.js');
+
 var ladiesWatches = [
      {
          imageSource: '../images/shop-images/ladies-watches/accurist-ladies-chronograph.jpg',
@@ -465,6 +467,4 @@ var ladiesWatches = [
         price: '340.00 лв.'
     }];
 
-$.getScript('../scripts/shop.js', function () {
-    addShopItemsToPage('#ladies-shop-body', ladiesWatches);
-});
+addShopItemsToPage('#ladies-shop-body', ladiesWatches);

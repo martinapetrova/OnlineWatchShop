@@ -320,6 +320,14 @@ nav ul li > ul li a
     left:1030px;
 }
 
+#mens-shop-sidebar img, #ladies-shop-sidebar img
+{
+    height: 33px;
+    position: absolute;
+    top: 1px;
+    left: 4px;
+}
+
 #mens-shop-sidebar input[type=search], #ladies-shop-sidebar input[type=search]
 {
     width:100%;
@@ -327,13 +335,13 @@ nav ul li > ul li a
     border:1px solid #272727;
     border-radius:15px;
     background-color:#272727;
-    padding:6px 35px;
+    padding:9px 10px 6px 38px;
     -moz-box-sizing: border-box;
 }
 
 #mens-shop-sidebar input[type=search]::-webkit-input-placeholder, #ladies-shop-sidebar input[type=search]::-webkit-input-placeholder {
-    font-size:13px;
-    font-weight:500;
+    font-size:13.5px;
+    font-weight:600;
     letter-spacing:1px;
     color:#fff;
     font-family:proximanovalight;
@@ -341,7 +349,7 @@ nav ul li > ul li a
 }
 
 #mens-shop-sidebar input[type=search]:-moz-placeholder, #ladies-shop-sidebar input[type=search]:-moz-placeholder { /* Firefox 18- */
-    font-size:13px;
+    font-size:13.5px;
     font-weight:600;
     letter-spacing:1px;
     color:#fff;
@@ -351,7 +359,7 @@ nav ul li > ul li a
 }
 
 #mens-shop-sidebar input[type=search]::-moz-placeholder, #ladies-shop-sidebar input[type=search]::-moz-placeholder {  /* Firefox 19+ */
-    font-size:13px;
+    font-size:13.5px;
     font-weight:600;
     letter-spacing:1px;
     color:#fff;
@@ -361,7 +369,7 @@ nav ul li > ul li a
 }
 
 #mens-shop-sidebar input[type=search]:-ms-input-placeholder, #ladies-shop-sidebar input[type=search]:-ms-input-placeholder {  
-    font-size:13px;
+    font-size:13.5px;
     font-weight:600;
     letter-spacing:1px;
     color:#fff;

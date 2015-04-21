@@ -75,6 +75,7 @@
     <Content Include="images\home-our-shop.jpg" />
     <Content Include="images\home-testimonials.jpg" />
     <Content Include="images\banner-images\home.jpg" />
+    <Content Include="images\shop-images\search-icon.png" />
     <Content Include="images\shop-images\ladies-watches\accurist-ladies-chronograph.jpg" />
     <Content Include="images\shop-images\ladies-watches\accurist-ladies-chronograph2.jpg" />
     <Content Include="images\shop-images\ladies-watches\accurist-ladies-chronograph3.jpg" />
@@ -480,6 +481,9 @@
     <Content Include="scripts\contacts.js" />
     <Content Include="scripts\ladies-watches.js" />
     <Content Include="scripts\mens-watches.js" />
+    <Content Include="scripts\search-ladies-watches.js" />
+    <Content Include="scripts\search-mens-watches.js" />
+    <Content Include="scripts\search.js" />
     <Content Include="scripts\shop.js" />
     <Content Include="scripts\testimonials.js" />
     <Content Include="shop.html" />
