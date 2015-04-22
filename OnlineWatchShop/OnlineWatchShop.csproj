@@ -479,6 +479,9 @@
     <Content Include="libs\simpleCart.js" />
     <Content Include="men-watches.html" />
     <Content Include="scripts\contacts.js" />
+    <Content Include="scripts\filters-ladies-watches.js" />
+    <Content Include="scripts\filters-mens-watches.js" />
+    <Content Include="scripts\filters.js" />
     <Content Include="scripts\ladies-watches.js" />
     <Content Include="scripts\mens-watches.js" />
     <Content Include="scripts\search-ladies-watches.js" />
