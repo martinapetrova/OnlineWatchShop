@@ -4,464 +4,507 @@ var mensWatches = [
         imageSource: '../images/shop-images/mens-watches/accurist-london-mens-chronograph.jpg',
         brand: 'Accurist',
         title: 'Men\'s chronograph',
-        price: '230.00 лв.'
-    },
-    {
+        price: '230.00 лв.',
+        category: 'Designer Label'
+    }, {
         imageSource: '../images/shop-images/mens-watches/accurist-mens-chronograph.jpg',
         brand: 'Accurist',
         title: 'Men\'s chronograph',
-        price: '140.00 лв.'
+        price: '140.00 лв.',
+        category: 'Classic'
     }, {
         imageSource: '../images/shop-images/mens-watches/accurist-london-mens-chronograph2.jpg',
         brand: 'Accurist',
         title: 'Men\'s chronograph',
-        price: '430.00 лв.'
-    },
-    {
+        price: '430.00 лв.',
+        category: 'Sports'
+    }, {
+        imageSource: '../images/shop-images/mens-watches/accurist-mens-chronograph.jpg',
+        brand: 'Accurist',
+        title: 'Men\'s chronograph',
+        price: '140.00 лв.',
+        category: 'Classic'
+    }, {
+        imageSource: '../images/shop-images/mens-watches/accurist-london-mens-chronograph2.jpg',
+        brand: 'Accurist',
+        title: 'Men\'s chronograph',
+        price: '430.00 лв.',
+        category: 'Classic'
+    }, {
         imageSource: '../images/shop-images/mens-watches/accurist-mens-chronograph3.jpg',
         brand: 'Accurist',
         title: 'Men\'s chronograph',
-        price: '250.00 лв.'
+        price: '250.00 лв.',
+        category: 'Classic'
     }, {
         imageSource: '../images/shop-images/mens-watches/adidas-unisex-santiago-42.jpg',
         brand: 'Adidas',
         title: 'Unisex Santiago 42',
-        price: '100.00 лв.'
-    },
-    {
+        price: '100.00 лв.',
+        category: 'Designer Label'
+    }, {
         imageSource: '../images/shop-images/mens-watches/adidas-unisex-santiago.jpg',
         brand: 'Adidas',
         title: 'Unisex Santiago',
-        price: '340.00 лв.'
+        price: '340.00 лв.',
+        category: 'Sports'
+    }, {
+        imageSource: '../images/shop-images/mens-watches/accurist-mens-chronograph3.jpg',
+        brand: 'Armani Exchange',
+        title: 'Men\'s chronograph',
+        price: '250.00 лв.',
+        category: 'Classic'
+    }, {
+        imageSource: '../images/shop-images/mens-watches/adidas-unisex-santiago-42.jpg',
+        brand: 'Armani Exchange',
+        title: 'Unisex Santiago 42',
+        price: '100.00 лв.',
+        category: 'Classic'
+    }, {
+        imageSource: '../images/shop-images/mens-watches/accurist-london-mens-chronograph2.jpg',
+        brand: 'Armani Exchange',
+        title: 'Men\'s chronograph',
+        price: '430.00 лв.',
+        category: 'Luxury'
+    },
+    {
+        imageSource: '../images/shop-images/mens-watches/accurist-mens-chronograph3.jpg',
+        brand: 'Armani Exchange',
+        title: 'Men\'s chronograph',
+        price: '250.00 лв.',
+        category: 'Designer Label'
+    }, {
+        imageSource: '../images/shop-images/mens-watches/adidas-unisex-santiago-42.jpg',
+        brand: 'Armani Exchange',
+        title: 'Unisex Santiago 42',
+        price: '100.00 лв.',
+        category: 'Classic'
+    }, {
+        imageSource: '../images/shop-images/mens-watches/adidas-unisex-santiago.jpg',
+        brand: 'Armani Exchange',
+        title: 'Unisex Santiago',
+        price: '340.00 лв.',
+        category: 'Classic'
     }, {
         imageSource: '../images/shop-images/mens-watches/accurist-london-mens-chronograph.jpg',
-        brand: 'Accurist',
+        brand: 'Ben Sherman',
         title: 'Men\'s chronograph',
-        price: '230.00 лв.'
-    },
-    {
-        imageSource: '../images/shop-images/mens-watches/accurist-mens-chronograph.jpg',
-        brand: 'Accurist',
-        title: 'Men\'s chronograph',
-        price: '140.00 лв.'
+        price: '230.00 лв.',
+        category: 'Sports'
     }, {
-        imageSource: '../images/shop-images/mens-watches/accurist-london-mens-chronograph2.jpg',
-        brand: 'Accurist',
-        title: 'Men\'s chronograph',
-        price: '430.00 лв.'
-    },
-    {
-        imageSource: '../images/shop-images/mens-watches/accurist-mens-chronograph3.jpg',
-        brand: 'Accurist',
-        title: 'Men\'s chronograph',
-        price: '250.00 лв.'
-    }, {
-        imageSource: '../images/shop-images/mens-watches/adidas-unisex-santiago-42.jpg',
-        brand: 'Adidas',
-        title: 'Unisex Santiago 42',
-        price: '100.00 лв.'
-    },
-    {
         imageSource: '../images/shop-images/mens-watches/adidas-unisex-santiago.jpg',
-        brand: 'Adidas',
+        brand: 'Ben Sherman',
         title: 'Unisex Santiago',
-        price: '340.00 лв.'
+        price: '340.00 лв.',
+        category: 'Classic'
+    }, {
+        imageSource: '../images/shop-images/mens-watches/adidas-unisex-santiago.jpg',
+        brand: 'Ben Sherman',
+        title: 'Unisex Santiago',
+        price: '340.00 лв.',
+        category: 'Designer Label'
     }, {
         imageSource: '../images/shop-images/mens-watches/accurist-london-mens-chronograph.jpg',
-        brand: 'Accurist',
+        brand: 'Ben Sherman',
         title: 'Men\'s chronograph',
-        price: '230.00 лв.'
-    },
-    {
+        price: '230.00 лв.',
+        category: 'Luxury'
+    }, {
         imageSource: '../images/shop-images/mens-watches/accurist-mens-chronograph.jpg',
-        brand: 'Accurist',
+        brand: 'Ben Sherman',
         title: 'Men\'s chronograph',
-        price: '140.00 лв.'
-    }, {
-        imageSource: '../images/shop-images/mens-watches/accurist-london-mens-chronograph2.jpg',
-        brand: 'Accurist',
-        title: 'Men\'s chronograph',
-        price: '430.00 лв.'
-    },
-    {
-        imageSource: '../images/shop-images/mens-watches/accurist-mens-chronograph3.jpg',
-        brand: 'Accurist',
-        title: 'Men\'s chronograph',
-        price: '250.00 лв.'
-    }, {
-        imageSource: '../images/shop-images/mens-watches/adidas-unisex-santiago-42.jpg',
-        brand: 'Adidas',
-        title: 'Unisex Santiago 42',
-        price: '100.00 лв.'
-    },
-    {
-        imageSource: '../images/shop-images/mens-watches/adidas-unisex-santiago.jpg',
-        brand: 'Adidas',
-        title: 'Unisex Santiago',
-        price: '340.00 лв.'
+        price: '140.00 лв.',
+        category: 'Classic'
     }, {
         imageSource: '../images/shop-images/mens-watches/accurist-london-mens-chronograph.jpg',
-        brand: 'Accurist',
+        brand: 'Black Dice',
         title: 'Men\'s chronograph',
-        price: '230.00 лв.'
-    },
-    {
-        imageSource: '../images/shop-images/mens-watches/accurist-mens-chronograph.jpg',
-        brand: 'Accurist',
-        title: 'Men\'s chronograph',
-        price: '140.00 лв.'
-    }, {
-        imageSource: '../images/shop-images/mens-watches/accurist-london-mens-chronograph2.jpg',
-        brand: 'Accurist',
-        title: 'Men\'s chronograph',
-        price: '430.00 лв.'
-    },
-    {
-        imageSource: '../images/shop-images/mens-watches/accurist-mens-chronograph3.jpg',
-        brand: 'Accurist',
-        title: 'Men\'s chronograph',
-        price: '250.00 лв.'
-    }, {
-        imageSource: '../images/shop-images/mens-watches/adidas-unisex-santiago-42.jpg',
-        brand: 'Adidas',
-        title: 'Unisex Santiago 42',
-        price: '100.00 лв.'
-    },
-    {
-        imageSource: '../images/shop-images/mens-watches/adidas-unisex-santiago.jpg',
-        brand: 'Adidas',
-        title: 'Unisex Santiago',
-        price: '340.00 лв.'
+        price: '230.00 лв.',
+        category: 'Classic'
     }, {
         imageSource: '../images/shop-images/mens-watches/accurist-london-mens-chronograph.jpg',
-        brand: 'Accurist',
+        brand: 'Breo',
         title: 'Men\'s chronograph',
-        price: '230.00 лв.'
-    },
-    {
+        price: '230.00 лв.',
+        category: 'Luxury'
+    }, {
         imageSource: '../images/shop-images/mens-watches/accurist-mens-chronograph.jpg',
-        brand: 'Accurist',
+        brand: 'Breo',
         title: 'Men\'s chronograph',
-        price: '140.00 лв.'
+        price: '140.00 лв.',
+        category: 'Designer Label'
     }, {
         imageSource: '../images/shop-images/mens-watches/accurist-london-mens-chronograph2.jpg',
-        brand: 'Accurist',
+        brand: 'Breo',
         title: 'Men\'s chronograph',
-        price: '430.00 лв.'
-    },
-    {
+        price: '430.00 лв.',
+        category: 'Sports'
+    }, {
+        imageSource: '../images/shop-images/mens-watches/accurist-mens-chronograph.jpg',
+        brand: 'Breo',
+        title: 'Men\'s chronograph',
+        price: '140.00 лв.',
+        category: 'Classic'
+    }, {
+        imageSource: '../images/shop-images/mens-watches/accurist-london-mens-chronograph2.jpg',
+        brand: 'Breo',
+        title: 'Men\'s chronograph',
+        price: '430.00 лв.',
+        category: 'Classic'
+    }, {
         imageSource: '../images/shop-images/mens-watches/accurist-mens-chronograph3.jpg',
-        brand: 'Accurist',
+        brand: 'Breo',
         title: 'Men\'s chronograph',
-        price: '250.00 лв.'
+        price: '250.00 лв.',
+        category: 'Luxury'
     }, {
         imageSource: '../images/shop-images/mens-watches/adidas-unisex-santiago-42.jpg',
-        brand: 'Adidas',
+        brand: 'Breo',
         title: 'Unisex Santiago 42',
-        price: '100.00 лв.'
-    },
-    {
+        price: '100.00 лв.',
+        category: 'Designer Label'
+    }, {
+        imageSource: '../images/shop-images/mens-watches/adidas-unisex-santiago-42.jpg',
+        brand: 'Breo',
+        title: 'Unisex Santiago 42',
+        price: '100.00 лв.',
+        category: 'Classic'
+    }, {
         imageSource: '../images/shop-images/mens-watches/adidas-unisex-santiago.jpg',
-        brand: 'Adidas',
+        brand: 'Breo',
         title: 'Unisex Santiago',
-        price: '340.00 лв.'
+        price: '340.00 лв.',
+        category: 'Luxury'
+    }, {
+        imageSource: '../images/shop-images/mens-watches/adidas-unisex-santiago.jpg',
+        brand: 'Calvin Klein',
+        title: 'Unisex Santiago',
+        price: '340.00 лв.',
+        category: 'Classic'
     }, {
         imageSource: '../images/shop-images/mens-watches/accurist-london-mens-chronograph.jpg',
-        brand: 'Accurist',
+        brand: 'Calvin Klein',
         title: 'Men\'s chronograph',
-        price: '230.00 лв.'
-    },
-    {
+        price: '230.00 лв.',
+        category: 'Sports'
+    }, {
         imageSource: '../images/shop-images/mens-watches/accurist-mens-chronograph.jpg',
-        brand: 'Accurist',
+        brand: 'Calvin Klein',
         title: 'Men\'s chronograph',
-        price: '140.00 лв.'
+        price: '140.00 лв.',
+        category: 'Classic'
     }, {
         imageSource: '../images/shop-images/mens-watches/accurist-london-mens-chronograph2.jpg',
-        brand: 'Accurist',
+        brand: 'Calvin Klein',
         title: 'Men\'s chronograph',
-        price: '430.00 лв.'
-    },
-    {
+        price: '430.00 лв.',
+        category: 'Luxury'
+    }, {
         imageSource: '../images/shop-images/mens-watches/accurist-mens-chronograph3.jpg',
-        brand: 'Accurist',
+        brand: 'Calvin Klein',
         title: 'Men\'s chronograph',
-        price: '250.00 лв.'
+        price: '250.00 лв.',
+        category: 'Classic'
     }, {
         imageSource: '../images/shop-images/mens-watches/adidas-unisex-santiago-42.jpg',
-        brand: 'Adidas',
+        brand: 'Calvin Klein',
         title: 'Unisex Santiago 42',
-        price: '100.00 лв.'
-    },
-    {
+        price: '100.00 лв.',
+        category: 'Classic'
+    }, {
         imageSource: '../images/shop-images/mens-watches/adidas-unisex-santiago.jpg',
-        brand: 'Adidas',
+        brand: 'Character',
         title: 'Unisex Santiago',
-        price: '340.00 лв.'
+        price: '340.00 лв.',
+        category: 'Designer Label'
     }, {
         imageSource: '../images/shop-images/mens-watches/accurist-london-mens-chronograph.jpg',
-        brand: 'Accurist',
+        brand: 'Citizen Drive',
         title: 'Men\'s chronograph',
-        price: '230.00 лв.'
-    },
-    {
+        price: '230.00 лв.',
+        category: 'Classic'
+    }, {
         imageSource: '../images/shop-images/mens-watches/accurist-mens-chronograph.jpg',
-        brand: 'Accurist',
+        brand: 'Citizen Drive',
         title: 'Men\'s chronograph',
-        price: '140.00 лв.'
+        price: '140.00 лв.',
+        category: 'Luxury'
     }, {
         imageSource: '../images/shop-images/mens-watches/accurist-london-mens-chronograph2.jpg',
-        brand: 'Accurist',
+        brand: 'Daniel Wellington',
         title: 'Men\'s chronograph',
-        price: '430.00 лв.'
-    },
-    {
-        imageSource: '../images/shop-images/mens-watches/accurist-mens-chronograph3.jpg',
-        brand: 'Accurist',
-        title: 'Men\'s chronograph',
-        price: '250.00 лв.'
+        price: '430.00 лв.',
+        category: 'Classic'
     }, {
-        imageSource: '../images/shop-images/mens-watches/adidas-unisex-santiago-42.jpg',
-        brand: 'Adidas',
-        title: 'Unisex Santiago 42',
-        price: '100.00 лв.'
-    },
-    {
         imageSource: '../images/shop-images/mens-watches/adidas-unisex-santiago.jpg',
-        brand: 'Adidas',
+        brand: 'Diesel',
         title: 'Unisex Santiago',
-        price: '340.00 лв.'
+        price: '340.00 лв.',
+        category: 'Designer Label'
     }, {
         imageSource: '../images/shop-images/mens-watches/accurist-london-mens-chronograph.jpg',
-        brand: 'Accurist',
+        brand: 'Diesel',
         title: 'Men\'s chronograph',
-        price: '230.00 лв.'
-    },
-    {
-        imageSource: '../images/shop-images/mens-watches/accurist-mens-chronograph.jpg',
-        brand: 'Accurist',
-        title: 'Men\'s chronograph',
-        price: '140.00 лв.'
+        price: '230.00 лв.',
+        category: 'Classic'
     }, {
-        imageSource: '../images/shop-images/mens-watches/accurist-london-mens-chronograph2.jpg',
-        brand: 'Accurist',
+        imageSource: '../images/shop-images/mens-watches/accurist-mens-chronograph.jpg',
+        brand: 'Diesel',
         title: 'Men\'s chronograph',
-        price: '430.00 лв.'
-    },
-    {
+        price: '140.00 лв.',
+        category: 'Classic'
+    }, {
         imageSource: '../images/shop-images/mens-watches/accurist-mens-chronograph3.jpg',
-        brand: 'Accurist',
+        brand: 'Diesel',
         title: 'Men\'s chronograph',
-        price: '250.00 лв.'
+        price: '250.00 лв.',
+        category: 'Designer Label'
     }, {
         imageSource: '../images/shop-images/mens-watches/adidas-unisex-santiago-42.jpg',
-        brand: 'Adidas',
+        brand: 'Diesel',
         title: 'Unisex Santiago 42',
-        price: '100.00 лв.'
-    },
-    {
+        price: '100.00 лв.',
+        category: 'Luxury'
+    }, {
         imageSource: '../images/shop-images/mens-watches/adidas-unisex-santiago.jpg',
-        brand: 'Adidas',
+        brand: 'Diesel',
         title: 'Unisex Santiago',
-        price: '340.00 лв.'
+        price: '340.00 лв.',
+        category: 'Sports'
     }, {
         imageSource: '../images/shop-images/mens-watches/accurist-london-mens-chronograph.jpg',
-        brand: 'Accurist',
+        brand: 'Diesel',
         title: 'Men\'s chronograph',
-        price: '230.00 лв.'
-    },
-    {
+        price: '230.00 лв.',
+        category: 'Classic'
+    }, {
         imageSource: '../images/shop-images/mens-watches/accurist-mens-chronograph.jpg',
-        brand: 'Accurist',
+        brand: 'Diesel',
         title: 'Men\'s chronograph',
-        price: '140.00 лв.'
+        price: '140.00 лв.',
+        category: 'Classic'
     }, {
         imageSource: '../images/shop-images/mens-watches/accurist-london-mens-chronograph2.jpg',
-        brand: 'Accurist',
+        brand: 'DKNY',
         title: 'Men\'s chronograph',
-        price: '430.00 лв.'
-    },
-    {
+        price: '430.00 лв.',
+        category: 'Classic'
+    }, {
         imageSource: '../images/shop-images/mens-watches/accurist-mens-chronograph3.jpg',
-        brand: 'Accurist',
+        brand: 'Emporio Armani',
         title: 'Men\'s chronograph',
-        price: '250.00 лв.'
+        price: '250.00 лв.',
+        category: 'Luxury'
     }, {
         imageSource: '../images/shop-images/mens-watches/adidas-unisex-santiago-42.jpg',
-        brand: 'Adidas',
+        brand: 'Emporio Armani',
         title: 'Unisex Santiago 42',
-        price: '100.00 лв.'
-    },
-    {
+        price: '100.00 лв.',
+        category: 'Designer Label'
+    }, {
         imageSource: '../images/shop-images/mens-watches/adidas-unisex-santiago.jpg',
-        brand: 'Adidas',
+        brand: 'Emporio Armani',
         title: 'Unisex Santiago',
-        price: '340.00 лв.'
+        price: '340.00 лв.',
+        category: 'Sports'
     }, {
         imageSource: '../images/shop-images/mens-watches/accurist-london-mens-chronograph.jpg',
-        brand: 'Accurist',
+        brand: 'Emporio Armani',
         title: 'Men\'s chronograph',
-        price: '230.00 лв.'
-    },
-    {
+        price: '230.00 лв.',
+        category: 'Classic'
+    }, {
         imageSource: '../images/shop-images/mens-watches/accurist-mens-chronograph.jpg',
-        brand: 'Accurist',
+        brand: 'Emporio Armani',
         title: 'Men\'s chronograph',
-        price: '140.00 лв.'
+        price: '140.00 лв.',
+        category: 'Luxury'
     }, {
         imageSource: '../images/shop-images/mens-watches/accurist-london-mens-chronograph2.jpg',
-        brand: 'Accurist',
+        brand: 'Emporio Armani',
         title: 'Men\'s chronograph',
-        price: '430.00 лв.'
-    },
-    {
+        price: '430.00 лв.',
+        category: 'Sports'
+    }, {
         imageSource: '../images/shop-images/mens-watches/accurist-mens-chronograph3.jpg',
-        brand: 'Accurist',
+        brand: 'Firetrap',
         title: 'Men\'s chronograph',
-        price: '250.00 лв.'
+        price: '250.00 лв.',
+        category: 'Luxury'
     }, {
         imageSource: '../images/shop-images/mens-watches/adidas-unisex-santiago-42.jpg',
-        brand: 'Adidas',
+        brand: 'Firetrap',
         title: 'Unisex Santiago 42',
-        price: '100.00 лв.'
-    },
-    {
+        price: '100.00 лв.',
+        category: 'Designer Label'
+    }, {
         imageSource: '../images/shop-images/mens-watches/adidas-unisex-santiago.jpg',
-        brand: 'Adidas',
+        brand: 'Firetrap',
         title: 'Unisex Santiago',
-        price: '340.00 лв.'
+        price: '340.00 лв.',
+        category: 'Classic'
     }, {
         imageSource: '../images/shop-images/mens-watches/accurist-london-mens-chronograph.jpg',
-        brand: 'Accurist',
+        brand: 'Fossil',
         title: 'Men\'s chronograph',
-        price: '230.00 лв.'
-    },
-    {
+        price: '230.00 лв.',
+        category: 'Luxury'
+    }, {
         imageSource: '../images/shop-images/mens-watches/accurist-mens-chronograph.jpg',
-        brand: 'Accurist',
+        brand: 'Fossil',
         title: 'Men\'s chronograph',
-        price: '140.00 лв.'
+        price: '140.00 лв.',
+        category: 'Classic'
     }, {
         imageSource: '../images/shop-images/mens-watches/accurist-london-mens-chronograph2.jpg',
-        brand: 'Accurist',
+        brand: 'Fossil',
         title: 'Men\'s chronograph',
-        price: '430.00 лв.'
-    },
-    {
+        price: '430.00 лв.',
+        category: 'Classic'
+    }, {
         imageSource: '../images/shop-images/mens-watches/accurist-mens-chronograph3.jpg',
-        brand: 'Accurist',
+        brand: 'Fossil',
         title: 'Men\'s chronograph',
-        price: '250.00 лв.'
+        price: '250.00 лв.',
+        category: 'Luxury'
     }, {
         imageSource: '../images/shop-images/mens-watches/adidas-unisex-santiago-42.jpg',
-        brand: 'Adidas',
+        brand: 'Fossil',
         title: 'Unisex Santiago 42',
-        price: '100.00 лв.'
-    },
-    {
+        price: '100.00 лв.',
+        category: 'Designer Label'
+    }, {
+        imageSource: '../images/shop-images/mens-watches/accurist-mens-chronograph3.jpg',
+        brand: 'Fossil',
+        title: 'Men\'s chronograph',
+        price: '250.00 лв.',
+        category: 'Sports'
+    }, {
+        imageSource: '../images/shop-images/mens-watches/adidas-unisex-santiago-42.jpg',
+        brand: 'Fossil',
+        title: 'Unisex Santiago 42',
+        price: '100.00 лв.',
+        category: 'Classic'
+    }, {
         imageSource: '../images/shop-images/mens-watches/adidas-unisex-santiago.jpg',
-        brand: 'Adidas',
+        brand: 'Fossil',
         title: 'Unisex Santiago',
-        price: '340.00 лв.'
+        price: '340.00 лв.',
+        category: 'Designer Label'
+    }, {
+        imageSource: '../images/shop-images/mens-watches/accurist-mens-chronograph3.jpg',
+        brand: 'KENZO',
+        title: 'Men\'s chronograph',
+        price: '250.00 лв.',
+        category: 'Luxury'
+    }, {
+        imageSource: '../images/shop-images/mens-watches/adidas-unisex-santiago-42.jpg',
+        brand: 'KENZO',
+        title: 'Unisex Santiago 42',
+        price: '100.00 лв.',
+        category: 'Sports'
+    }, {
+        imageSource: '../images/shop-images/mens-watches/adidas-unisex-santiago.jpg',
+        brand: 'KENZO',
+        title: 'Unisex Santiago',
+        price: '340.00 лв.',
+        category: 'Classic'
     }, {
         imageSource: '../images/shop-images/mens-watches/accurist-london-mens-chronograph.jpg',
-        brand: 'Accurist',
+        brand: 'KENZO',
         title: 'Men\'s chronograph',
-        price: '230.00 лв.'
-    },
-    {
+        price: '230.00 лв.',
+        category: 'Designer Label'
+    }, {
         imageSource: '../images/shop-images/mens-watches/accurist-mens-chronograph.jpg',
-        brand: 'Accurist',
+        brand: 'KENZO',
         title: 'Men\'s chronograph',
-        price: '140.00 лв.'
+        price: '140.00 лв.',
+        category: 'Luxury'
     }, {
         imageSource: '../images/shop-images/mens-watches/accurist-london-mens-chronograph2.jpg',
-        brand: 'Accurist',
+        brand: 'KENZO',
         title: 'Men\'s chronograph',
-        price: '430.00 лв.'
-    },
-    {
-        imageSource: '../images/shop-images/mens-watches/accurist-mens-chronograph3.jpg',
-        brand: 'Accurist',
-        title: 'Men\'s chronograph',
-        price: '250.00 лв.'
-    }, {
-        imageSource: '../images/shop-images/mens-watches/adidas-unisex-santiago-42.jpg',
-        brand: 'Adidas',
-        title: 'Unisex Santiago 42',
-        price: '100.00 лв.'
-    },
-    {
-        imageSource: '../images/shop-images/mens-watches/adidas-unisex-santiago.jpg',
-        brand: 'Adidas',
-        title: 'Unisex Santiago',
-        price: '340.00 лв.'
+        price: '430.00 лв.',
+        category: 'Classic'
     }, {
         imageSource: '../images/shop-images/mens-watches/accurist-london-mens-chronograph.jpg',
-        brand: 'Accurist',
+        brand: 'Michael Kors',
         title: 'Men\'s chronograph',
-        price: '230.00 лв.'
-    },
-    {
+        price: '230.00 лв.',
+        category: 'Sports'
+    }, {
         imageSource: '../images/shop-images/mens-watches/accurist-mens-chronograph.jpg',
-        brand: 'Accurist',
+        brand: 'Michael Kors',
         title: 'Men\'s chronograph',
-        price: '140.00 лв.'
+        price: '140.00 лв.',
+        category: 'Luxury'
     }, {
         imageSource: '../images/shop-images/mens-watches/accurist-london-mens-chronograph2.jpg',
-        brand: 'Accurist',
+        brand: 'Michael Kors',
         title: 'Men\'s chronograph',
-        price: '430.00 лв.'
-    },
-    {
-        imageSource: '../images/shop-images/mens-watches/accurist-mens-chronograph3.jpg',
-        brand: 'Accurist',
-        title: 'Men\'s chronograph',
-        price: '250.00 лв.'
+        price: '430.00 лв.',
+        category: 'Designer Label'
     }, {
-        imageSource: '../images/shop-images/mens-watches/adidas-unisex-santiago-42.jpg',
-        brand: 'Adidas',
-        title: 'Unisex Santiago 42',
-        price: '100.00 лв.'
-    },
-    {
         imageSource: '../images/shop-images/mens-watches/adidas-unisex-santiago.jpg',
-        brand: 'Adidas',
+        brand: 'Michael Kors',
         title: 'Unisex Santiago',
-        price: '340.00 лв.'
+        price: '340.00 лв.',
+        category: 'Classic'
     }, {
         imageSource: '../images/shop-images/mens-watches/accurist-london-mens-chronograph.jpg',
-        brand: 'Accurist',
+        brand: 'Michael Kors',
         title: 'Men\'s chronograph',
-        price: '230.00 лв.'
-    },
-    {
+        price: '230.00 лв.',
+        category: 'Classic'
+    }, {
         imageSource: '../images/shop-images/mens-watches/accurist-mens-chronograph.jpg',
-        brand: 'Accurist',
+        brand: 'Michael Kors',
         title: 'Men\'s chronograph',
-        price: '140.00 лв.'
+        price: '140.00 лв.',
+        category: 'Luxury'
     }, {
         imageSource: '../images/shop-images/mens-watches/accurist-london-mens-chronograph2.jpg',
-        brand: 'Accurist',
+        brand: 'Michael Kors',
         title: 'Men\'s chronograph',
-        price: '430.00 лв.'
-    },
-    {
+        price: '430.00 лв.',
+        category: 'Classic'
+    }, {
         imageSource: '../images/shop-images/mens-watches/accurist-mens-chronograph3.jpg',
-        brand: 'Accurist',
+        brand: 'Michael Kors',
         title: 'Men\'s chronograph',
-        price: '250.00 лв.'
+        price: '250.00 лв.',
+        category: 'Luxury'
+    }, {
+        imageSource: '../images/shop-images/mens-watches/accurist-mens-chronograph3.jpg',
+        brand: 'Vivienne Westwood',
+        title: 'Men\'s chronograph',
+        price: '250.00 лв.',
+        category: 'Classic'
     }, {
         imageSource: '../images/shop-images/mens-watches/adidas-unisex-santiago-42.jpg',
-        brand: 'Adidas',
+        brand: 'Vivienne Westwood',
         title: 'Unisex Santiago 42',
-        price: '100.00 лв.'
-    },
-    {
-        imageSource: '../images/shop-images/mens-watches/adidas-unisex-santiago.jpg',
-        brand: 'Adidas',
-        title: 'Unisex Santiago',
-        price: '340.00 лв.'
+        price: '100.00 лв.',
+        category: 'Sports'
+    }, {
+        imageSource: '../images/shop-images/mens-watches/accurist-london-mens-chronograph2.jpg',
+        brand: 'Vivienne Westwood',
+        title: 'Men\'s chronograph',
+        price: '430.00 лв.',
+        category: 'Classic'
+    }, {
+        imageSource: '../images/shop-images/mens-watches/accurist-mens-chronograph3.jpg',
+        brand: 'Vivienne Westwood',
+        title: 'Men\'s chronograph',
+        price: '250.00 лв.',
+        category: 'Classic'
+    }, {
+        imageSource: '../images/shop-images/mens-watches/adidas-unisex-santiago-42.jpg',
+        brand: 'Vivienne Westwood',
+        title: 'Unisex Santiago 42',
+        price: '100.00 лв.',
+        category: 'Luxury'
     }];
 
 $.getScript('../scripts/shop.js', function () {

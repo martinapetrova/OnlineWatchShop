@@ -6,7 +6,7 @@ function showResultsFromSearch(searchField, itemsArray, pageBody) {
     $(searchField).keyup(
     function () {
 
-        var $searchText = $.trim((searchField).val().toLowerCase());
+        var $searchText = $.trim($(searchField).val().toLowerCase());
 
         var searchItems = [];
 
