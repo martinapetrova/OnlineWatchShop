@@ -7,3 +7,5 @@ $.getScript('../scripts/ladies-watches.js');
 addBrandsToPage(ladiesWatches, '#ladies-brands-selection');
 
 addCategoriesToPage(ladiesWatches, '#ladies-category-selection');
+
+getSelectedBrandsArray('#ladies-brands-selection');

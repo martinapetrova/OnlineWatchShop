@@ -12,11 +12,13 @@ function addBrandsToPage(itemsArray, pageBody) {
     for (var brand in brands) {
         var $brandSelection = $(pageBody);
         var $brandCheckbox = document.createElement('input');
-        $brandCheckbox.setAttribute("type", "checkbox");
+        $brandCheckbox.id = pageBody + brands[brand].toString();
+        $brandCheckbox.setAttribute('type', 'checkbox');
         $brandSelection.append($brandCheckbox);
 
         var $brandLabel = document.createElement('label');
         $brandLabel.innerHTML = brands[brand].toString();
+        $brandLabel.setAttribute('for', $brandCheckbox.id);
         $brandSelection.append($brandLabel);
 
         var $newLine = document.createElement('br');
@@ -43,4 +45,22 @@ function addCategoriesToPage(itemsArray, pageBody) {
         var $newLine = document.createElement('br');
         $categorySelection.append($newLine);
     }
+}
+
+function getSelectedBrandsArray(pageBody) {
+    var $allLabels = $(pageBody).find('label');
+    var $allBrands = [];
+    for (var label in $allLabels) {
+            $allBrands.push(label.innerHTML);
+    }
+
+    var $selectedBrands = [];
+
+    for (var brand in $allBrands) {
+        var $checkBox = document.getElementById(pageBody + brand);
+        if ($checkBox.checked) {
+            $selectedBrands.push(brand);
+        }
+    }
+
 }
