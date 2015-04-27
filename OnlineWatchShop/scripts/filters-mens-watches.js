@@ -1,5 +1,7 @@
 ﻿/// <reference path="../libs/jquery-2.1.1.js" />
 
+$getScript('../scripts/shop.js');
+
 $.getScript('../scripts/filters.js');
 
 $.getScript('../scripts/mens-watches.js');

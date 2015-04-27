@@ -1,5 +1,7 @@
 ﻿/// <reference path="../libs/jquery-2.1.1.js" />
 
+$.getScript('../scripts/ladies-watches.js');
+
 function addBrandsToPage(itemsArray, pageBody) {
     var brands = [];
 
@@ -12,10 +14,12 @@ function addBrandsToPage(itemsArray, pageBody) {
     for (var brand in brands) {
         var $brandSelection = $(pageBody);
         var $brandCheckbox = document.createElement('input');
-        $brandCheckbox.id = pageBody + brands[brand].toString();
+        $brandCheckbox.id = pageBody + '-' + brands[brand];
         $brandCheckbox.setAttribute('type', 'checkbox');
         $brandSelection.append($brandCheckbox);
-
+        if (brand%2==0) {
+            $brandCheckbox.setAttribute('checked', 'checked');
+        }
         var $brandLabel = document.createElement('label');
         $brandLabel.innerHTML = brands[brand].toString();
         $brandLabel.setAttribute('for', $brandCheckbox.id);
@@ -47,20 +51,32 @@ function addCategoriesToPage(itemsArray, pageBody) {
     }
 }
 
-function getSelectedBrandsArray(pageBody) {
+function getItemsWithSelectedBrands(pageBody) {
     var $allLabels = $(pageBody).find('label');
     var $allBrands = [];
-    for (var label in $allLabels) {
-            $allBrands.push(label.innerHTML);
+
+    for (var label = 0; label < $allLabels.length; label++) {
+        $allBrands.push($allLabels[label].innerHTML);
     }
 
     var $selectedBrands = [];
 
     for (var brand in $allBrands) {
-        var $checkBox = document.getElementById(pageBody + brand);
+        var $checkBox = document.getElementById(pageBody + '-' + $allBrands[brand]);
         if ($checkBox.checked) {
-            $selectedBrands.push(brand);
+            $selectedBrands.push($allBrands[brand]);
         }
     }
 
+    var $selectedWatches = [];
+
+    for (var watch = 0; watch < ladiesWatches.length; watch++) {
+        var watchBrand = ladiesWatches[watch].brand;
+        if ($selectedBrands.indexOf(watchBrand) > -1) {
+            $selectedWatches.push(ladiesWatches[watch]);
+        }
+    }
+
+    return $selectedWatches;
 }
+

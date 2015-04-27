@@ -16,7 +16,6 @@ function showResultsFromSearch(searchField, itemsArray, pageBody) {
             };
         }
         
-        $('table').remove();
         addShopItemsToPage(pageBody, searchItems);
 
         $searchText = '';

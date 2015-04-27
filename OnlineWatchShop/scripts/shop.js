@@ -1,5 +1,6 @@
 ﻿function addShopItemsToPage(pageBody, itemsArray) {
     var $shop = $(pageBody);
+    $('table').remove();
     var $shopTable = document.createElement('table');
 
     for (var i = 0; i < itemsArray.length; i++) {
