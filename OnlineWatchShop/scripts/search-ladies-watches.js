@@ -3,5 +3,5 @@
 $.getScript('../scripts/shop.js');
 
 $.getScript('../scripts/search.js');
-        
+
 showResultsFromSearch('#search-ladies-watches', ladiesWatches, '#ladies-shop-body');

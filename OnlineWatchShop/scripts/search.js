@@ -5,7 +5,7 @@ $.getScript('../scripts/shop.js');
 function showResultsFromSearch(searchField, itemsArray, pageBody) {
     $(searchField).keyup(
     function () {
-
+        console.log(itemsArray);
         var $searchText = $.trim($(searchField).val().toLowerCase());
 
         var searchItems = [];

@@ -17,41 +17,37 @@ function addBrandsToPage(itemsArray, pageBody) {
         $brandCheckbox.id = pageBody + '-' + brands[brand];
         $brandCheckbox.setAttribute('type', 'checkbox');
         $brandSelection.append($brandCheckbox);
-        if (brand%2==0) {
-            $brandCheckbox.setAttribute('checked', 'checked');
-        }
         var $brandLabel = document.createElement('label');
         $brandLabel.innerHTML = brands[brand].toString();
         $brandLabel.setAttribute('for', $brandCheckbox.id);
         $brandSelection.append($brandLabel);
-
         var $newLine = document.createElement('br');
         $brandSelection.append($newLine);
     }
 }
 
-function addCategoriesToPage(itemsArray, pageBody) {
-    var categories = [];
+//function addCategoriesToPage(itemsArray, pageBody) {
+//    var categories = [];
 
-    for (var item in itemsArray) {
-        if ($.inArray(itemsArray[item].category, categories) < 0) {
-            categories.push(itemsArray[item].category);
-        }
-    }
+//    for (var item in itemsArray) {
+//        if ($.inArray(itemsArray[item].category, categories) < 0) {
+//            categories.push(itemsArray[item].category);
+//        }
+//    }
 
-    for (var category in categories) {
-        var $categorySelection = $(pageBody);
+//    for (var category in categories) {
+//        var $categorySelection = $(pageBody);
 
-        var $categoryOption = document.createElement('a');
-        $categoryOption.innerHTML = categories[category].toString();
-        $categorySelection.append($categoryOption);
+//        var $categoryOption = document.createElement('a');
+//        $categoryOption.innerHTML = categories[category].toString();
+//        $categorySelection.append($categoryOption);
 
-        var $newLine = document.createElement('br');
-        $categorySelection.append($newLine);
-    }
-}
+//        var $newLine = document.createElement('br');
+//        $categorySelection.append($newLine);
+//    }
+//}
 
-function getItemsWithSelectedBrands(pageBody) {
+function getItemsWithSelectedBrands(pageBody, itemArray) {
     var $allLabels = $(pageBody).find('label');
     var $allBrands = [];
 
@@ -70,13 +66,45 @@ function getItemsWithSelectedBrands(pageBody) {
 
     var $selectedWatches = [];
 
-    for (var watch = 0; watch < ladiesWatches.length; watch++) {
-        var watchBrand = ladiesWatches[watch].brand;
+    for (var item = 0; item < itemArray.length; item++) {
+        var watchBrand = itemArray[item].brand;
         if ($selectedBrands.indexOf(watchBrand) > -1) {
-            $selectedWatches.push(ladiesWatches[watch]);
+            $selectedWatches.push(itemArray[item]);
+        }
+    }
+
+    if ($selectedWatches.length == 0) {
+        for (var item = 0; item < itemArray.length; item++) {
+            $selectedWatches.push(itemArray[item]);
         }
     }
 
     return $selectedWatches;
 }
 
+function getItemsWithSelectedPrice(minPriceSelector, maxPriceSelector, itemsArray) {
+    var $minPrice = parseFloat($(minPriceSelector).val());
+    var $maxPrice = parseFloat($(maxPriceSelector).val());
+    var $selectedWatches = [];
+
+    for (var item = 0; item < itemsArray.length; item++) {
+        if (parseFloat(itemsArray[item].price) >= $minPrice && parseFloat(itemsArray[item].price) <= $maxPrice) {
+            $selectedWatches.push(itemsArray[item]);
+        }
+    }
+
+    if ($selectedWatches.length == 0) {
+        for (var item = 0; item < itemsArray.length; item++) {
+            $selectedWatches.push(itemsArray[item]);
+        }
+    }
+
+    return $selectedWatches;
+}
+
+function getSelectedItems(selectedBrands, selectedPriceRange) {
+    var selectedItems = selectedBrands.filter(function (n) {
+        return selectedPriceRange.indexOf(n) != -1
+    });
+    return selectedItems;
+}

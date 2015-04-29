@@ -48,21 +48,17 @@
 
         </div>
         <div id="ladies-shop-sidebar">
-            <input id="search-ladies-watches" type="search" placeholder="Search..." onfocus="this.placeholder = ''" onblur="this.placeholder = 'Search...'" />
+            <input id="search-ladies-watches" type="search" placeholder="Search..." autocomplete="off" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Search...'" />
             <img src="images/shop-images/search-icon.png" />
             <p>Refined selection:</p>
             <div id="ladies-brands-selection">
                 <p>Brands</p>
             </div>
             <hr/>
-            <div id="ladies-category-selection">
-                <p>Categories</p>
-            </div>
-            <hr />
             <div id="ladies-price-range">
                 <p>Price range</p>
-                <input type="text" /> - 
-                <input type="text" />
+                <input type="text" id="ladies-min-price" autocomplete="off" /> - 
+                <input type="text" id="ladies-max-price" autocomplete="off" />
                 <button id="ladies-go-btn">Go</button>
             </div>
         </div>
