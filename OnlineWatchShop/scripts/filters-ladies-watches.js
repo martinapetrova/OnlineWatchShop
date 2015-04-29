@@ -14,4 +14,4 @@ addCategoriesToPage(ladiesWatches, '#ladies-category-selection');
 
 var goBtn = document.getElementById('ladies-go-btn');
 var selectedWatches = getItemsWithSelectedBrands('#ladies-brands-selection');
-goBtn.addEventListener('click', function(){addShopItemsToPage('#ladies-shop-body', selectedWatches)}, false);
+goBtn.addEventListener('click', function () { addShopItemsToPage('#ladies-shop-body', getItemsWithSelectedBrands('#ladies-brands-selection')) }, false);
