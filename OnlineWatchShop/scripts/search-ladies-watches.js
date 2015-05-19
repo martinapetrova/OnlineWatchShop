@@ -4,4 +4,4 @@ $.getScript('../scripts/shop.js');
 
 $.getScript('../scripts/search.js');
 
-showResultsFromSearch('#search-ladies-watches', ladiesWatches, '#ladies-shop-body');
+showResultsFromSearch('#search-ladies-watches', ladiesWatches, '#ladies-shop-body', '#ladies-shop-sidebar');
