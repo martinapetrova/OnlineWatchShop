@@ -13,16 +13,19 @@ function addBrandsToPage(itemsArray, pageBody) {
 
     for (var brand in brands) {
         var $brandSelection = $(pageBody);
+        var $brandSelectionDiv = document.createElement('div');
+        $brandSelectionDiv.className = 'black-checkbox';
         var $brandCheckbox = document.createElement('input');
         $brandCheckbox.id = pageBody + '-' + brands[brand];
         $brandCheckbox.setAttribute('type', 'checkbox');
-        $brandSelection.append($brandCheckbox);
+        $brandSelectionDiv.appendChild($brandCheckbox);
         var $brandLabel = document.createElement('label');
         $brandLabel.innerHTML = brands[brand].toString();
         $brandLabel.setAttribute('for', $brandCheckbox.id);
-        $brandSelection.append($brandLabel);
+        $brandSelectionDiv.appendChild($brandLabel)
         var $newLine = document.createElement('br');
-        $brandSelection.append($newLine);
+        $brandSelectionDiv.appendChild($newLine);
+        $brandSelection.append($brandSelectionDiv);
     }
 }
 
