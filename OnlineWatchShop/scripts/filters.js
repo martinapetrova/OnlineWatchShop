@@ -1,7 +1,5 @@
 ﻿/// <reference path="../libs/jquery-2.1.1.js" />
 
-$.getScript('../scripts/ladies-watches.js');
-
 function addBrandsToPage(itemsArray, pageBody) {
     var brands = [];
 
@@ -14,7 +12,6 @@ function addBrandsToPage(itemsArray, pageBody) {
     for (var brand in brands) {
         var $brandSelection = $(pageBody);
         var $brandSelectionDiv = document.createElement('div');
-        $brandSelectionDiv.className = 'black-checkbox';
         var $brandCheckbox = document.createElement('input');
         $brandCheckbox.id = pageBody + '-' + brands[brand];
         $brandCheckbox.setAttribute('type', 'checkbox');

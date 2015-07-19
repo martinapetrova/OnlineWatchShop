@@ -1,4 +1,7 @@
 ﻿/// <reference path="../libs/jquery-2.1.1.js" />
+
+$.getScript('../scripts/shop.js');
+
 var mensWatches = [
     {
         imageSource: '../images/shop-images/mens-watches/accurist-london-mens-chronograph.jpg',
@@ -507,6 +510,4 @@ var mensWatches = [
         category: 'Luxury'
     }];
 
-$.getScript('../scripts/shop.js', function () {
     addShopItemsToPage('#mens-shop-body', mensWatches);
-});
