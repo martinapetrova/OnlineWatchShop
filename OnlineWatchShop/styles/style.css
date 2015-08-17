@@ -221,9 +221,9 @@ nav {
     padding: 50px 48px;
 }
 
-#mens-shop-body table{
-    float:left;
-}
+    #mens-shop-body table, #ladies-shop-body table {
+        float: left;
+    }
 
     #mens-shop-body table, #ladies-shop-body table {
         border-spacing: 18px 30px;
@@ -275,10 +275,11 @@ nav {
 
 #mens-shop-sidebar, #ladies-shop-sidebar {
     width: 245px;
-    float:right;
+    float: right;
     /*position: absolute;*/
     /*top: 786px;
     left: 1045px;*/
+    margin-right: 22px;
     font-size: 16px;
     text-align: left;
     font-family: proximanovalight;
@@ -287,8 +288,8 @@ nav {
     #mens-shop-sidebar img, #ladies-shop-sidebar img {
         height: 33px;
         position: absolute;
-        top: 1px;
-        left: 4px;
+        top: 807px;
+        left: 1079px;
     }
 
     #mens-shop-sidebar input[type=search], #ladies-shop-sidebar input[type=search] {
@@ -301,7 +302,7 @@ nav {
         font-weight: 600;
         font-family: proximanovalight;
         color: #fff;
-        letter-spacing:1px;
+        letter-spacing: 1px;
         padding: 9px 10px 6px 38px;
         -moz-box-sizing: border-box;
     }
@@ -357,6 +358,58 @@ nav {
 
     #mens-shop-sidebar input[type=checkbox], #ladies-shop-sidebar input[type=checkbox] {
         margin: 5px 8px 5px 0;
+        background: black;
+    }
+
+    #mens-shop-sidebar input[type=text], #ladies-shop-sidebar input[type=text] {
+        width: 48.5px;
+        border: 1px solid #cccccc;
+        border-radius: 2px;
+        font-family: proximanovalight;
+        font-size: 14px;
+        padding: 6px;
+        background-color: #fafafa;
+        color: #272727;
+        font-weight: 600;
+        text-align: center;
+    }
+
+        #mens-shop-sidebar input[type=text]:first-of-type, #ladies-shop-sidebar input[type=text]:first-of-type {
+            margin-right: 4px;
+        }
+
+        #mens-shop-sidebar input[type=text]:last-of-type, #ladies-shop-sidebar input[type=text]:last-of-type {
+            margin: 0 5px 0 3px;
+        }
+
+        #mens-shop-sidebar input[type=text].selected, #ladies-shop-sidebar input[type=text].selected {
+            background-color: #ffffff;
+            border: 1px solid #cccccc;
+        }
+
+        #mens-shop-sidebar input[type=text]:focus, #ladies-shop-sidebar input[type=text]:focus {
+            outline: 0;
+        }
+
+    #mens-shop-sidebar span.currency, #ladies-shop-sidebar span.currency {
+        font-family: proximanovalight;
+        font-size: 16px;
+        color: #272727;
+        font-weight: 600;
+        vertical-align: -4px;
+    }
+
+    #mens-shop-sidebar a, #ladies-shop-sidebar a {
+        margin-left: 9px;
+        padding: 7px 23.5px;
+        border: 1px solid #272727;
+        font-size: 13px;
+        font-weight: 700;
+        letter-spacing: 1px;
+        background-color: #272727;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 1.5px;
     }
 
     #mens-shop-sidebar label, #ladies-shop-sidebar label {
@@ -368,9 +421,7 @@ nav {
         font-weight: 600;
     }
 
-    footer{
-        clear:both;
-    }
+
 
 #contacts-body {
     padding: 35px 60px 80px 70px;
@@ -516,6 +567,33 @@ hr {
     color: #cccccc;
     clear: both;
 }
+
+.shopping-cart {
+    background: -webkit-linear-gradient(#1e1e1e,#040404);
+    position:fixed;
+    top:165px;
+    z-index:1500;
+    right:20px;
+    min-width:220px;
+    height:26px;
+    padding:14px 22px 8px 22px;
+    border-radius:30px;
+    vertical-align:-30px;
+    display:none;
+}
+
+.shopping-cart img{
+    height:15px;
+}
+
+.shopping-cart span{
+    color:#ddd;
+}
+
+footer {
+    clear: both;
+}
+
 
 @font-face {
     font-family: 'Mark Simonson - Proxima Nova Regular';

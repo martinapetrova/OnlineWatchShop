@@ -8,8 +8,6 @@ $.getScript('../scripts/ladies-watches.js');
 
 addBrandsToPage(ladiesWatches, '#ladies-brands-selection');
 
-//addCategoriesToPage(ladiesWatches, '#ladies-category-selection');
-
 var goBtn = document.getElementById('ladies-go-btn');
 goBtn.addEventListener('click',
     function () {

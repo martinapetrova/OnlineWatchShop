@@ -475,6 +475,7 @@
     <Content Include="images\shop-images\mens-watches\skagen-mens-matthies-titanium.jpg" />
     <Content Include="images\shop-images\mens-watches\vivienne-westwood-mens-camden-lock.jpg" />
     <Content Include="images\shop-images\mens-watches\vivienne-westwood-mens-grosvenor.jpg" />
+    <Content Include="images\shop-images\shopping-cart.ico" />
     <Content Include="libs\jquery-2.1.1.js" />
     <Content Include="libs\simpleCart.js" />
     <Content Include="men-watches.html" />
@@ -488,8 +489,8 @@
     <Content Include="scripts\search-mens-watches.js" />
     <Content Include="scripts\search.js" />
     <Content Include="scripts\shop.js" />
+    <Content Include="scripts\shopping-cart.js" />
     <Content Include="scripts\testimonials.js" />
-    <Content Include="shop.html" />
     <Content Include="styles\simplePagination.css" />
     <Content Include="styles\style.css" />
     <Content Include="testimonials.html" />

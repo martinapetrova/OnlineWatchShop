@@ -5,6 +5,15 @@
         <link href="styles/style.css" rel="stylesheet" />
     </head>
     <body>
+        <div class="shopping-cart">
+            <a class="shopping-cart-btn">
+                <img src="images/shop-images/shopping-cart.ico" />
+                <span>Cart - </span>
+                <span class="simpleCart_quantity"></span>
+                <span>items</span>
+                <span class="simpleCart_total"></span>
+            </a>
+        </div>
         <header class="banner-div">
             <img src="images/banner-images/shop.jpg" />
         </header>
@@ -45,8 +54,6 @@
             </div>
             <hr />
             <div id="mens-shop-body">
-                <!--<span class="simpleCart_quantity"></span> items - <span class="simpleCart_total"></span>
-                <a href="javascript:;" class="simpleCart_checkout">Checkout</a>-->
             </div>
             <div id="mens-shop-sidebar">
                 <input id="search-mens-watches" type="search" placeholder="Search..." onfocus="this.placeholder = ''" onblur="this.placeholder = 'Search...'" />
@@ -58,9 +65,11 @@
                 <hr />
                 <div id="mens-price-range">
                     <p>Price range</p>
-                    <input type="text" id="mens-min-price" autocomplete="off" /> -
+                    <input type="text" id="mens-min-price" autocomplete="off" />
+                    <span class="currency">-</span>
                     <input type="text" id="mens-max-price" autocomplete="off" />
-                    <button id="mens-go-btn">Go</button>
+                    <span class="currency">$</span>
+                    <a id="mens-go-btn" href="javascript:;">Go</a>
                 </div>
             </div>
         <footer>
@@ -69,6 +78,7 @@
             </p>
         </footer>
         <script src="libs/jquery-2.1.1.js"></script>
+        <script src="scripts/shopping-cart.js"></script>
         <script src="libs/simpleCart.js"></script>
         <script src="scripts/shop.js"></script>
         <script src="scripts/mens-watches.js"></script>

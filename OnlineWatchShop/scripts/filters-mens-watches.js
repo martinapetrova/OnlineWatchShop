@@ -8,8 +8,6 @@ $.getScript('../scripts/mens-watches.js');
 
 addBrandsToPage(mensWatches, '#mens-brands-selection');
 
-//addCategoriesToPage(mensWatches, '#mens-category-selection');
-
 var goBtn = document.getElementById('mens-go-btn');
 goBtn.addEventListener('click',
     function () {

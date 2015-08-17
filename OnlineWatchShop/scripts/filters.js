@@ -1,5 +1,14 @@
 ﻿/// <reference path="../libs/jquery-2.1.1.js" />
 
+$(document).ready(function () {
+    $('input[type=text]').focus(function () {
+        $(this).addClass('selected');
+    });
+    $('input[type=text]').blur(function () {
+        $(this).removeClass('selected');
+    });
+});
+
 function addBrandsToPage(itemsArray, pageBody) {
     var brands = [];
 
@@ -25,27 +34,6 @@ function addBrandsToPage(itemsArray, pageBody) {
         $brandSelection.append($brandSelectionDiv);
     }
 }
-
-//function addCategoriesToPage(itemsArray, pageBody) {
-//    var categories = [];
-
-//    for (var item in itemsArray) {
-//        if ($.inArray(itemsArray[item].category, categories) < 0) {
-//            categories.push(itemsArray[item].category);
-//        }
-//    }
-
-//    for (var category in categories) {
-//        var $categorySelection = $(pageBody);
-
-//        var $categoryOption = document.createElement('a');
-//        $categoryOption.innerHTML = categories[category].toString();
-//        $categorySelection.append($categoryOption);
-
-//        var $newLine = document.createElement('br');
-//        $categorySelection.append($newLine);
-//    }
-//}
 
 function getItemsWithSelectedBrands(pageBody, itemArray) {
     var $allLabels = $(pageBody).find('label');

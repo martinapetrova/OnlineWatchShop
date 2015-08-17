@@ -1,80 +1,91 @@
 ﻿<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
-    <head>
-        <title>Online watch shop</title>
-        <link href="styles/style.css" rel="stylesheet" />
-    </head>
-    <body>
-        <header class="banner-div">
-            <img src="images/banner-images/shop.jpg" />
-        </header>
-        <nav id="navigation">
-            <ul>
-                <li>
-                    <a href="home.html">
-                        Home
-                    </a>
-                </li>
-                <li>
-                    <a href="" onclick="return false;">
-                        Shop
-                    </a>
-                    <ul>
-                        <li>
-                            <a href="men-watches.html">Men's watches</a>
-                        </li>
-                        <li>
-                            <a href="women-watches.html">Women's watches</a>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="testimonials.html">
-                        Testimonials
-                    </a>
-                </li>
-                <li>
-                    <a href="contacts.html">
-                        Contact
-                    </a>
-                </li>
-            </ul>
-        </nav>
-        <div id="ladies-shop-title">
-            <h1>Ladies watches</h1>
+<head>
+    <title>Online watch shop</title>
+    <link href="styles/style.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="shopping-cart">
+        <a class="shopping-cart-btn">
+            <img src="images/shop-images/shopping-cart.ico" />
+            <span>Cart - </span>
+            <span class="simpleCart_quantity"></span>
+            <span>items</span>
+            <span class="simpleCart_total"></span>
+        </a>
+    </div>
+    <header class="banner-div">
+        <img src="images/banner-images/shop.jpg" />
+    </header>
+    <nav id="navigation">
+        <ul>
+            <li>
+                <a href="home.html">
+                    Home
+                </a>
+            </li>
+            <li>
+                <a href="" onclick="return false;">
+                    Shop
+                </a>
+                <ul>
+                    <li>
+                        <a href="men-watches.html">Men's watches</a>
+                    </li>
+                    <li>
+                        <a href="women-watches.html">Women's watches</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="testimonials.html">
+                    Testimonials
+                </a>
+            </li>
+            <li>
+                <a href="contacts.html">
+                    Contact
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <div id="ladies-shop-title">
+        <h1>Ladies watches</h1>
+    </div>
+    <hr />
+    <div id="ladies-shop-body">
+    </div>
+    <div id="ladies-shop-sidebar">
+        <input id="search-ladies-watches" type="search" placeholder="Search..." autocomplete="off" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Search...'" />
+        <img src="images/shop-images/search-icon.png" />
+        <p>Refined selection:</p>
+        <div id="ladies-brands-selection">
+            <p>Brands</p>
         </div>
         <hr />
-        <div id="ladies-shop-body">
-
+        <div id="ladies-price-range">
+            <p>Price range</p>
+            <input type="text" id="ladies-min-price" autocomplete="off" />
+            <span class="currency">-</span>
+            <input type="text" id="ladies-max-price" autocomplete="off" />
+            <span class="currency">$</span>
+            <a id="ladies-go-btn" href="javascript:;">Go</a>
         </div>
-        <div id="ladies-shop-sidebar">
-            <input id="search-ladies-watches" type="search" placeholder="Search..." autocomplete="off" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Search...'" />
-            <img src="images/shop-images/search-icon.png" />
-            <p>Refined selection:</p>
-            <div id="ladies-brands-selection">
-                <p>Brands</p>
-            </div>
-            <hr/>
-            <div id="ladies-price-range">
-                <p>Price range</p>
-                <input type="text" id="ladies-min-price" autocomplete="off" /> - 
-                <input type="text" id="ladies-max-price" autocomplete="off" />
-                <button id="ladies-go-btn">Go</button>
-            </div>
-            <div class="spacer"></div>
-        </div>
-        <footer>
-            <p>
-                &copy; Martina Petrova 2014
-            </p>
-        </footer>
-        <script src="libs/jquery-2.1.1.js"></script>
-        <script src="libs/simpleCart.js"></script>
-        <script src="scripts/shop.js"></script>
-        <script src="scripts/ladies-watches.js"></script>
-        <script src="scripts/search.js"></script>
-        <script src="scripts/search-ladies-watches.js"></script>
-        <script src="scripts/filters.js"></script>
-        <script src="scripts/filters-ladies-watches.js"></script>
-    </body>
+        <div class="spacer"></div>
+    </div>
+    <footer>
+        <p>
+            &copy; Martina Petrova 2014
+        </p>
+    </footer>
+    <script src="libs/jquery-2.1.1.js"></script>
+    <script src="scripts/shopping-cart.js"></script>
+    <script src="libs/simpleCart.js"></script>
+    <script src="scripts/shop.js"></script>
+    <script src="scripts/ladies-watches.js"></script>
+    <script src="scripts/search.js"></script>
+    <script src="scripts/search-ladies-watches.js"></script>
+    <script src="scripts/filters.js"></script>
+    <script src="scripts/filters-ladies-watches.js"></script>
+</body>
 </html>
