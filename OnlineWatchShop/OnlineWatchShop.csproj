@@ -491,6 +491,7 @@
     <Content Include="scripts\shop.js" />
     <Content Include="scripts\shopping-cart.js" />
     <Content Include="scripts\testimonials.js" />
+    <Content Include="shopping-cart.html" />
     <Content Include="styles\simplePagination.css" />
     <Content Include="styles\style.css" />
     <Content Include="testimonials.html" />
@@ -505,6 +506,7 @@
     <Content Include="styles\fonts\Mark Simonson - Proxima Nova Regular.otf" />
     <Content Include="styles\fonts\proximanovalight.ttf" />
     <Content Include="styles\fonts\PTF56F.ttf" />
+    <Content Include="styles\fonts\Gotham-Bold_21010.ttf" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

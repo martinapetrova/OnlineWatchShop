@@ -91,15 +91,14 @@
 					currency				: "USD",
 					language				: "english-us",
 
-					cartStyle				: "div",
-					cartColumns			: [
-						{ attr: "name", label: "Name" },
-						{ attr: "price", label: "Price", view: 'currency' },
-						{ view: "decrement", label: false },
-						{ attr: "quantity", label: "Qty" },
-						{ view: "increment", label: false },
-						{ attr: "total", label: "SubTotal", view: 'currency' },
-						{ view: "remove", text: "Remove", label: false }
+					cartStyle				: "table",
+					cartColumns: [
+                        {view:'image' , attr:'thumb', label: "Item"},
+						{ attr: "name", label: false },
+                        {view:'input', attr:'quantity', label: "Quantity" },
+						//{ attr: "price", label: "Price", view: 'currency' },
+						{ attr: "total", label: "Price", view: 'currency' },
+						{ view: "remove", text: "x", label: false }
 					],
 
 					excludeFromCheckout	: ['thumb'],
@@ -1748,7 +1747,7 @@
 
 					/* cart inputs */
 					, {	  selector: 'input'
-						, event: 'change'
+						, event: 'keyup'
 						, callback: function () {
 							var $input = simpleCart.$(this),
 								$parent = $input.parent(),
