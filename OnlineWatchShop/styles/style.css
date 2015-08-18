@@ -223,6 +223,7 @@ nav {
 
     #mens-shop-body table, #ladies-shop-body table {
         float: left;
+        margin-bottom:30px;
     }
 
     #mens-shop-body table, #ladies-shop-body table {
