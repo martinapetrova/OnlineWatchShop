@@ -273,6 +273,10 @@ nav {
             border-radius: 1.5px;
         }
 
+        #mens-shop-body table a:hover, #ladies-shop-body table a:hover{
+            opacity:0.8;
+        }
+
 #mens-shop-sidebar, #ladies-shop-sidebar {
     width: 245px;
     float: right;
@@ -410,6 +414,10 @@ nav {
         color: #fff;
         text-decoration: none;
         border-radius: 1.5px;
+    }
+
+    #mens-shop-sidebar a:hover, #ladies-shop-sidebar a:hover{
+        opacity:0.8;
     }
 
     #mens-shop-sidebar label, #ladies-shop-sidebar label {
@@ -557,7 +565,7 @@ nav {
 
 
 .simpleCart_items {
-    padding: 35px 60px 80px 67px;
+    padding: 35px 60px 0px 67px;
 }
 
     .simpleCart_items table {
@@ -566,25 +574,112 @@ nav {
     }
 
         .simpleCart_items table tr td, .simpleCart_items table tr th {
-            border-bottom: 1px solid #cccccc;
+            border-bottom: 2px outset #eee;
             padding: 18px 0;
         }
 
         .simpleCart_items table tr th {
             text-align: left;
             color: #666;
-            font-family: proximanovalight;
-            font-size: 14.5px;
-            font-weight: bold;
+            font-family: 'Mark Simonson - Proxima Nova Regular';
+            font-size: 14px;
+            font-weight: 600;
         }
 
-        .simpleCart_items table tr td:nth-of-type(2) {
-            padding: 18px 400px 18px 20px;
+        .simpleCart_items table tr td {
+            font-family: 'Mark Simonson - Proxima Nova Regular';
+            color: #444;
+            font-size: 15.5px;
+            font-weight: 500;
         }
+
+            .simpleCart_items table tr td input[type=text] {
+                text-align: right;
+                border: 1px solid #ccc;
+                padding: 5px 10px;
+                border-radius: 4px;
+                font-size: 16px;
+                color: #444;
+                font-weight: 300;
+                line-height: 1.6em;
+                width: 20px;
+            }
+
+                .simpleCart_items table tr td input[type=text]:focus {
+                    outline: 0;
+                    border-color: #121212;
+                }
+
+            .simpleCart_items table tr td:nth-of-type(4), .simpleCart_items table tr th:nth-of-type(4) {
+                padding: 18px 60px 18px 200px;
+            }
+
+
+            .simpleCart_items table tr td:last-of-type, .simpleCart_items table tr th:last-of-type {
+                padding: 18px 20px 18px 10px;
+            }
+
+            .simpleCart_items table tr td:nth-of-type(2) {
+                padding: 18px 440px 18px 20px;
+            }
+
+            .simpleCart_items table tr td:nth-of-type(4), #subtotal-lbl, #cart-total {
+                color: #555;
+                font-size: 17.5px;
+                font-family: proximanovalight;
+                font-weight: 500;
+            }
+
+            .simpleCart_items table tr td:last-of-type a {
+                text-decoration: none;
+                color: #999;
+                font-family: 'Mark Simonson - Proxima Nova Regular';
+                font-weight: 100;
+                font-size: 14.5px;
+                opacity: 0.9;
+            }
+
+                .simpleCart_items table tr td:last-of-type a:hover {
+                    color: #333;
+                }
+
 
         .simpleCart_items table img {
             height: 80px;
         }
+
+#cart-total {
+    display: inline-block;
+    margin: 21px 0px 11px 18px;
+}
+
+#cart-contents #subtotal-lbl {
+    margin-left: 969px;
+}
+
+.simpleCart_checkout {
+    width: 77px;
+    display: block;
+    margin: 22px 0 122px 1000px;
+    padding: 12px 27px;
+    font-size: 11.5px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    background-color: #272727;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 1.5px;
+    text-transform: uppercase;
+}
+
+#subtotal-line {
+    width:586px;
+    margin-left:550px;
+}
+
+
+
 
 .shopping-cart {
     background-color: #040404;

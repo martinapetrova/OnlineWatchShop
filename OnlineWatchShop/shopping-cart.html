@@ -43,13 +43,19 @@
         </p>
     </div>
     <hr />
-    <div class="simpleCart_items"></div>
-        <hr />
-        <footer>
-            <p>
-                &copy; Martina Petrova 2014
-            </p>
-        </footer>
+    <div id="cart-contents">
+        <div class="simpleCart_items"></div>
+        <label id="subtotal-lbl">Subtotal</label>
+        <div class="simpleCart_total" id="cart-total" ></div>
+        <hr id="subtotal-line"/>
+        <a href="javascript:;" class="simpleCart_checkout">Checkout</a>
+    </div>
+    <hr />
+    <footer>
+        <p>
+            &copy; Martina Petrova 2014
+        </p>
+    </footer>
     <script src="libs/jquery-2.1.1.js"></script>
     <script src="libs/simpleCart.js"></script>
 </body>
