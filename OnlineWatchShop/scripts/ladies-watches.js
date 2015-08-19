@@ -550,5 +550,3 @@ var ladiesWatches = [
         price: '340.00 USD',
         category: 'Classic'
     }];
-
-addShopItemsToPage('#ladies-shop-body', ladiesWatches);

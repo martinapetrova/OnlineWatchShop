@@ -279,11 +279,7 @@ nav {
         }
 
 #mens-shop-sidebar, #ladies-shop-sidebar {
-    width: 245px;
     float: right;
-    /*position: absolute;*/
-    /*top: 786px;
-    left: 1045px;*/
     margin-right: 22px;
     font-size: 16px;
     text-align: left;
@@ -298,7 +294,7 @@ nav {
     }
 
     #mens-shop-sidebar input[type=search], #ladies-shop-sidebar input[type=search] {
-        width: 100%;
+        /*width: 250px;*/
         height: 33px;
         border: 1px solid #272727;
         border-radius: 15px;
@@ -308,7 +304,7 @@ nav {
         font-family: proximanovalight;
         color: #fff;
         letter-spacing: 1px;
-        padding: 9px 10px 6px 38px;
+        padding: 9px 60px 6px 38px;
         -moz-box-sizing: border-box;
     }
 

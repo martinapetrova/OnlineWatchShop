@@ -14,9 +14,9 @@
 		init: function(options) {
 			var o = $.extend({
 				items: 1,
-				itemsOnPage: 1,
+				itemsOnPage: 15,
 				pages: 0,
-				displayedPages: 5,
+				displayedPages: 3,
 				edges: 2,
 				currentPage: 0,
 				hrefTextPrefix: '#page-',
@@ -24,14 +24,14 @@
 				prevText: 'Prev',
 				nextText: 'Next',
 				ellipseText: '&hellip;',
-				cssStyle: 'light-theme',
+				cssStyle: 'dark-theme',
 				labelMap: [],
 				selectOnClick: true,
 				nextAtFront: false,
 				invertPageOrder: false,
 				useStartEdge : true,
 				useEndEdge : true,
-				onPageClick: function(pageNumber, event) {
+				onPageClick: function() {
 					// Callback triggered when a page is clicked
 					// Page number is given as an optional parameter
 				},
@@ -334,3 +334,15 @@
 	};
 
 })(jQuery);
+
+function getItemsForSelectedPage(itemsOnPage, itemsArray, currentPage) {
+    var itemsForSelectedPage = [];
+    for (var i = 1; i <= itemsOnPage; i++) {
+        var currentItem = itemsArray[i * currentPage];
+        if (currentItem) {
+            itemsForSelectedPage.push(currentItem);
+        }
+    }
+    return itemsForSelectedPage;
+}
+

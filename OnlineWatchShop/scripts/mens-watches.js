@@ -509,5 +509,3 @@ var mensWatches = [
         price: '100.00 USD',
         category: 'Luxury'
     }];
-
-    addShopItemsToPage('#mens-shop-body', mensWatches);

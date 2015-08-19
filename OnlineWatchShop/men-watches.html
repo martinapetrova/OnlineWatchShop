@@ -74,6 +74,7 @@
         </div>
     </div>
     <div id="dark-pagination" class="pagination"></div>
+    <hr />
     <footer>
         <p>
             &copy; Martina Petrova 2014
@@ -89,22 +90,6 @@
     <script src="scripts/filters.js"></script>
     <script src="scripts/filters-mens-watches.js"></script>
     <script src="libs/jquery.simplePagination.js"></script>
-    <script>
-        $('#dark-pagination').pagination({
-            items: 1,	// Total number of items that will be used to calculate the pages.
-            itemsOnPage: 1,	// Number of items displayed on each page.
-            pages: 20,	// If specified, items and itemsOnPage will not be used to calculate the number of pages.
-            displayedPages: 5, // How many page numbers should be visible while navigating. Minimum allowed: 3 (previous, current & next)
-            edges: 2,	// How many page numbers are visible at the beginning/ending of the pagination.
-            currentPage: 1, // Which page will be selected immediately after init.
-            hrefTextPrefix: "#page-", // A string used to build the href attribute, added before the page number.
-            hrefTextSuffix: '', // Another string used to build the href attribute, added after the page number.
-            prevText: "Prev", // Text to be display on the previous button.
-            nextText: "Next", // Text to be display on the next button.
-            cssStyle: "dark-theme", // The class of the CSS theme.
-            selectOnClick: true, //	Set to false if you don't want to select the page immediately after click.
-        });
-    </script>
-
+    <script src="scripts/pagination-mens-watches.js"></script>
 </body>
 </html>

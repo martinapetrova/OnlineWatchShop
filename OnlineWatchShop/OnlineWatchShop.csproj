@@ -486,6 +486,8 @@
     <Content Include="scripts\filters.js" />
     <Content Include="scripts\ladies-watches.js" />
     <Content Include="scripts\mens-watches.js" />
+    <Content Include="scripts\pagination-ladies-watches.js" />
+    <Content Include="scripts\pagination-mens-watches.js" />
     <Content Include="scripts\search-ladies-watches.js" />
     <Content Include="scripts\search-mens-watches.js" />
     <Content Include="scripts\search.js" />
